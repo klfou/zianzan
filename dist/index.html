@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#edf2f5">
+<title>工程车拼装 · 小小工程队</title>
+<link rel="stylesheet" href="./drag-only/preview.css?v=33">
+</head>
+<body>
+<main id="stage" aria-label="挖掘机拼装">
+  <canvas id="yard" tabindex="0" aria-label="从下方拖动零件到中央。任选一件拖进中央，再把其余零件对准接合位置。键盘可用数字键选择零件，方向键移动。"></canvas>
+  <nav id="bench-controls" aria-label="拼装操作" hidden>
+    <div class="bench-tools">
+      <button type="button" id="show-guide" aria-haspopup="dialog" aria-controls="guide" aria-label="提示">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 8a4 4 0 1 1 6.5 3.1c-1.5 1.2-2.5 2-2.5 3.9"/><path d="M12 19h.01"/></svg>
+      </button>
+      <button type="button" id="replay" aria-label="重拼">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 11a8 8 0 1 1 2 6.3"/><path d="M4 5v6h6"/></svg>
+      </button>
+    </div>
+    <div class="bench-nav" role="group" aria-label="切换车辆">
+      <button type="button" id="prev-round" aria-label="上一辆">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 12H5m6-6-6 6 6 6"/></svg>
+      </button>
+      <button type="button" id="next-round" aria-label="下一辆">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+      </button>
+    </div>
+  </nav>
+  <section id="guide" role="dialog" aria-modal="true" aria-label="拼装提示" hidden>
+    <div class="guide-panel">
+      <button id="close-guide" type="button">关闭</button>
+      <img id="guide-picture" width="1600" height="1170" alt="履带式挖掘机合装图，下面是履带底盘、上车体和机械臂三件零件。任选一件开始。">
+      <p id="guide-error" hidden>提示图暂时无法打开，请关掉后重试。</p>
+    </div>
+  </section>
+  <output id="status" class="sr-only" aria-live="polite"></output>
+  <aside id="error" hidden>拖拽素材未能加载，请刷新后重试。</aside>
+</main>
+<script type="module" src="./drag-only/bench.mjs?v=52" onerror="document.getElementById('error').hidden=false"></script>
+</body>
+</html>

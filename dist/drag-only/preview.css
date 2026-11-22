@@ -1,0 +1,28 @@
+html,body{margin:0;width:100%;height:100%;height:100dvh;overflow:hidden;background:#edf2f5;font-family:system-ui,sans-serif;color:#fff}
+#stage{position:relative;width:100%;height:100%;overflow:hidden;background:radial-gradient(ellipse at 49% 36%,#fdfefe,#edf2f5 65%,#e3ebf0)}
+#yard{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;outline:none;visibility:hidden}
+#yard.ready{visibility:visible}#yard.can-grab{cursor:grab}#yard.grabbing{cursor:grabbing}#yard:focus-visible{outline:2px solid #946422;outline-offset:-3px}
+[hidden]{display:none!important}
+#error{position:absolute;z-index:1;pointer-events:none;max-width:82%;top:50%;left:50%;transform:translate(-50%,-50%);padding:1rem 1.25rem;background:#153d59;border:1px solid #85c6ef;border-radius:12px;text-align:center}
+.sr-only{position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden;white-space:nowrap}
+html,body,#stage{background:#f6f9fb}#stage{background-image:none}
+#bench-controls{position:absolute;z-index:1;pointer-events:none;box-sizing:border-box;padding-bottom:env(safe-area-inset-bottom,0px)}
+.bench-tools{position:absolute;top:clamp(8px,1.5vw,18px);left:clamp(8px,1.5vw,18px);display:flex;gap:4px;padding:3px;border:1px solid #dce5eb;border-radius:16px;background:#f8fbfdee}
+
+#close-guide{min-width:clamp(58px,8vw,107px);min-height:40px;padding:5px 13px;border:1px solid #cddce5;border-radius:12px;background:#fff;color:#2a475c;font:650 clamp(14px,1.55vw,18px)/1.1 system-ui,sans-serif;white-space:nowrap;cursor:pointer;touch-action:manipulation}
+#bench-controls button{box-sizing:border-box;display:grid;place-items:center;flex:none;width:44px;height:44px;padding:0;border:0;border-radius:12px;background:transparent;color:#314d62;cursor:pointer;touch-action:manipulation;pointer-events:auto}
+#bench-controls svg{display:block;width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+#bench-controls button:focus-visible,#close-guide:focus-visible{outline:2px solid #967028;outline-offset:2px}
+#bench-controls button:hover:not(:disabled),#close-guide:hover{background:#edf4f8}
+#bench-controls .bench-nav{position:absolute;right:clamp(10px,1.65vw,20px);bottom:clamp(10px,1.65vw,20px);display:flex;gap:8px}
+#bench-controls .bench-nav button{width:48px;height:48px;border:1px solid #d3dee5;border-radius:15px;background:#f8fbfd;color:#314d62}
+#bench-controls .bench-nav button:hover:not(:disabled){background:#eaf2f7}
+#bench-controls #next-round.is-complete{background:#f9d879;border-color:#e5be60;color:#49340c}
+#bench-controls #next-round.is-complete:hover:not(:disabled){background:#f9cd54}
+#guide{position:absolute;z-index:2;inset:0;display:grid;place-items:center;padding:10px;background:#1d344877}
+.guide-panel{position:relative;display:grid;justify-items:center;max-width:min(94vw,1120px);max-height:96%;overflow:auto;overscroll-behavior:contain;border-radius:17px;background:#f8fafc;color:#2a475c;padding:43px 5px 5px}
+#close-guide{position:absolute;top:4px;right:6px;min-width:56px;min-height:35px;font-size:14px}
+#guide-picture{display:block;width:auto;height:auto;max-width:min(89vw,1080px);max-height:calc(94dvh - 50px);object-fit:contain}
+@supports not (height:100dvh){#guide-picture{max-height:calc(94vh - 50px)}}
+
+#bench-controls[aria-busy="true"] .bench-nav button{opacity:.55;cursor:progress}
