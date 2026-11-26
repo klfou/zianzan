@@ -1,0 +1,51 @@
+{
+  "name": "旋挖钻机",
+  "intro": "kellyRigIntro",
+  "layers": [
+    "kellyRigMast",
+    "kellyRigTracks",
+    "kellyRigHouse",
+    "kellyRigTool"
+  ],
+  "id": "rotary-piling-rig",
+  "width": 731,
+  "height": 1125,
+  "parts": [
+    {
+      "id": "kellyRigTracks",
+      "name": "履带底盘",
+      "file": "puzzle/rotary-piling-rig/kellyRigTracks.webp",
+      "x": 0,
+      "y": 968,
+      "w": 473,
+      "h": 157
+    },
+    {
+      "id": "kellyRigHouse",
+      "name": "回转车身",
+      "file": "puzzle/rotary-piling-rig/kellyRigHouse.webp",
+      "x": 32,
+      "y": 736,
+      "w": 444,
+      "h": 249
+    },
+    {
+      "id": "kellyRigMast",
+      "name": "桅杆",
+      "file": "puzzle/rotary-piling-rig/kellyRigMast.webp",
+      "x": 423,
+      "y": 0,
+      "w": 125,
+      "h": 1010
+    },
+    {
+      "id": "kellyRigTool",
+      "name": "钻杆和钻斗",
+      "file": "puzzle/rotary-piling-rig/kellyRigTool.webp",
+      "x": 509,
+      "y": 336,
+      "w": 222,
+      "h": 774
+    }
+  ]
+}

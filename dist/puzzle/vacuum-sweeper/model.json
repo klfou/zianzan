@@ -1,0 +1,51 @@
+{
+  "id": "vacuum-sweeper",
+  "name": "道路清扫车",
+  "width": 837,
+  "height": 491,
+  "layers": [
+    "sweeperNozzle",
+    "sweeperChassis",
+    "sweeperHopper",
+    "sweeperBrush"
+  ],
+  "parts": [
+    {
+      "id": "sweeperChassis",
+      "name": "行驶底盘",
+      "file": "puzzle/vacuum-sweeper/sweeperChassis.webp",
+      "x": 0,
+      "y": 0,
+      "w": 837,
+      "h": 491
+    },
+    {
+      "id": "sweeperHopper",
+      "name": "集尘箱",
+      "file": "puzzle/vacuum-sweeper/sweeperHopper.webp",
+      "x": 271,
+      "y": 55,
+      "w": 565,
+      "h": 260
+    },
+    {
+      "id": "sweeperBrush",
+      "name": "圆盘刷",
+      "file": "puzzle/vacuum-sweeper/sweeperBrush.webp",
+      "x": 259,
+      "y": 330,
+      "w": 199,
+      "h": 160
+    },
+    {
+      "id": "sweeperNozzle",
+      "name": "吸嘴",
+      "file": "puzzle/vacuum-sweeper/sweeperNozzle.webp",
+      "x": 463,
+      "y": 301,
+      "w": 256,
+      "h": 187
+    }
+  ],
+  "intro": "sweeperIntro"
+}

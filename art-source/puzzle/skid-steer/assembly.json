@@ -1,0 +1,77 @@
+{
+  "name": "滑移装载机",
+  "intro": "skidSteerIntro",
+  "parts": [
+    {
+      "id": "skidSteerBase",
+      "name": "行走底盘",
+      "cell": [
+        16,
+        80,
+        710,
+        496
+      ],
+      "scale": 1,
+      "position": [
+        0,
+        155
+      ]
+    },
+    {
+      "id": "skidSteerCab",
+      "name": "驾驶室",
+      "cell": [
+        903,
+        51,
+        1344,
+        465
+      ],
+      "scale": 0.68,
+      "position": [
+        283,
+        0
+      ]
+    },
+    {
+      "id": "skidSteerLift",
+      "name": "举升臂",
+      "cell": [
+        37,
+        570,
+        763,
+        962
+      ],
+      "scale": 0.92,
+      "position": [
+        80,
+        139
+      ],
+      "rotationDegreesClockwise": 5.8,
+      "rotationCenterOnCanvas": [
+        123,
+        195
+      ]
+    },
+    {
+      "id": "skidSteerBucket",
+      "name": "铲斗",
+      "cell": [
+        865,
+        650,
+        1474,
+        961
+      ],
+      "scale": 0.39,
+      "position": [
+        696,
+        431
+      ]
+    }
+  ],
+  "layers": [
+    "skidSteerBase",
+    "skidSteerCab",
+    "skidSteerLift",
+    "skidSteerBucket"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "剪叉式升降车",
+  "intro": "scissorLiftIntro",
+  "parts": [
+    {
+      "id": "scissorLiftBase",
+      "name": "行走底盘",
+      "cell": [
+        56,
+        29,
+        1345,
+        590
+      ],
+      "position": [
+        0,
+        210
+      ],
+      "scale": 1
+    },
+    {
+      "id": "scissorLiftArms",
+      "name": "剪叉臂",
+      "cell": [
+        51,
+        736,
+        727,
+        951
+      ],
+      "position": [
+        463,
+        278
+      ],
+      "scale": 1.07
+    },
+    {
+      "id": "scissorLiftDeck",
+      "name": "作业平台",
+      "cell": [
+        780,
+        703,
+        1489,
+        955
+      ],
+      "position": [
+        411,
+        0
+      ],
+      "scale": 1.16
+    }
+  ],
+  "layers": [
+    "scissorLiftArms",
+    "scissorLiftBase",
+    "scissorLiftDeck"
+  ]
+}

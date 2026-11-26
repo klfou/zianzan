@@ -1,0 +1,41 @@
+{
+  "name": "水罐消防车",
+  "intro": "fireTenderIntro",
+  "layers": [
+    "fireTenderFrame",
+    "fireTenderBody",
+    "fireTenderCab"
+  ],
+  "id": "fire-water-tender",
+  "width": 1477,
+  "height": 634,
+  "parts": [
+    {
+      "id": "fireTenderFrame",
+      "name": "底盘",
+      "file": "puzzle/fire-water-tender/fireTenderFrame.webp",
+      "x": 24,
+      "y": 378,
+      "w": 1453,
+      "h": 256
+    },
+    {
+      "id": "fireTenderCab",
+      "name": "驾驶室",
+      "file": "puzzle/fire-water-tender/fireTenderCab.webp",
+      "x": 0,
+      "y": 0,
+      "w": 449,
+      "h": 543
+    },
+    {
+      "id": "fireTenderBody",
+      "name": "消防车厢",
+      "file": "puzzle/fire-water-tender/fireTenderBody.webp",
+      "x": 438,
+      "y": 51,
+      "w": 1007,
+      "h": 337
+    }
+  ]
+}

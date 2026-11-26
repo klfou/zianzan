@@ -1,0 +1,51 @@
+{
+  "id": "tipper",
+  "name": "翻斗车",
+  "width": 1711,
+  "height": 884,
+  "layers": [
+    "truckframe",
+    "truckcab",
+    "trucklift",
+    "truckbed"
+  ],
+  "parts": [
+    {
+      "id": "truckframe",
+      "name": "轮式底盘",
+      "file": "puzzle/tipper/truckframe.webp",
+      "x": 0,
+      "y": 260,
+      "w": 1670,
+      "h": 624
+    },
+    {
+      "id": "truckcab",
+      "name": "驾驶室",
+      "file": "puzzle/tipper/truckcab.webp",
+      "x": 14,
+      "y": 9,
+      "w": 589,
+      "h": 636
+    },
+    {
+      "id": "trucklift",
+      "name": "液压油缸",
+      "file": "puzzle/tipper/trucklift.webp",
+      "x": 661,
+      "y": 255,
+      "w": 230,
+      "h": 333
+    },
+    {
+      "id": "truckbed",
+      "name": "翻斗车厢",
+      "file": "puzzle/tipper/truckbed.webp",
+      "x": 515,
+      "y": 0,
+      "w": 1196,
+      "h": 532
+    }
+  ],
+  "intro": "truckintro"
+}

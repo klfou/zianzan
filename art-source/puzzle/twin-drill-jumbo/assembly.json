@@ -1,0 +1,67 @@
+{
+  "name": "双头凿岩台车",
+  "intro": "twinJumboIntro",
+  "layers": [
+    "twinJumboCarrier",
+    "twinJumboLeft",
+    "twinJumboRight"
+  ],
+  "parts": [
+    {
+      "id": "twinJumboCarrier",
+      "name": "车身",
+      "cell": [
+        12,
+        94,
+        909,
+        541
+      ],
+      "position": [
+        0,
+        143
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "twinJumboLeft",
+      "name": "左钻臂",
+      "cell": [
+        915,
+        59,
+        1756,
+        537
+      ],
+      "position": [
+        842,
+        0
+      ],
+      "scale": 0.82,
+      "scaleX": 0.82
+    },
+    {
+      "id": "twinJumboRight",
+      "name": "右钻臂",
+      "cell": [
+        49,
+        607,
+        1739,
+        855
+      ],
+      "position": [
+        772,
+        373
+      ],
+      "scale": 0.58,
+      "scaleX": 0.58,
+      "rotation": {
+        "peg": [
+          48,
+          203
+        ],
+        "angle": 8,
+        "scale": 0.58
+      }
+    }
+  ]
+}

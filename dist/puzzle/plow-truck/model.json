@@ -1,0 +1,41 @@
+{
+  "id": "plow-truck",
+  "name": "铲雪车",
+  "width": 1380,
+  "height": 573,
+  "parts": [
+    {
+      "id": "snowPlowCarrier",
+      "name": "行驶底盘",
+      "file": "puzzle/plow-truck/snowPlowCarrier.webp",
+      "x": 499,
+      "y": 6,
+      "w": 816,
+      "h": 567
+    },
+    {
+      "id": "snowPlowSpreader",
+      "name": "撒布装置",
+      "file": "puzzle/plow-truck/snowPlowSpreader.webp",
+      "x": 894,
+      "y": 0,
+      "w": 486,
+      "h": 345
+    },
+    {
+      "id": "snowPlowBlade",
+      "name": "推雪铲",
+      "file": "puzzle/plow-truck/snowPlowBlade.webp",
+      "x": 0,
+      "y": 401,
+      "w": 549,
+      "h": 166
+    }
+  ],
+  "layers": [
+    "snowPlowSpreader",
+    "snowPlowCarrier",
+    "snowPlowBlade"
+  ],
+  "intro": "snowPlowIntro"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "侧装式垃圾车",
+  "intro": "curbLoadIntro",
+  "layers": [
+    "curbLoadHopper",
+    "curbLoadBase",
+    "curbLoadGrab"
+  ],
+  "id": "side-load-refuse-truck",
+  "width": 1584,
+  "height": 529,
+  "parts": [
+    {
+      "id": "curbLoadBase",
+      "name": "行驶底盘",
+      "file": "puzzle/side-load-refuse-truck/curbLoadBase.webp",
+      "x": 0,
+      "y": 100,
+      "w": 1584,
+      "h": 429
+    },
+    {
+      "id": "curbLoadHopper",
+      "name": "侧投垃圾厢",
+      "file": "puzzle/side-load-refuse-truck/curbLoadHopper.webp",
+      "x": 404,
+      "y": 0,
+      "w": 1175,
+      "h": 349
+    },
+    {
+      "id": "curbLoadGrab",
+      "name": "夹桶臂",
+      "file": "puzzle/side-load-refuse-truck/curbLoadGrab-v2.webp",
+      "x": 420,
+      "y": 271,
+      "w": 322,
+      "h": 256
+    }
+  ]
+}

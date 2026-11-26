@@ -1,0 +1,42 @@
+{
+  "name": "密闭自卸垃圾车",
+  "intro": "sealedTipIntro",
+  "layers": [
+    "sealedTipBox",
+    "sealedTipCab"
+  ],
+  "parts": [
+    {
+      "id": "sealedTipCab",
+      "name": "行驶底盘",
+      "cell": [
+        104,
+        313,
+        1606,
+        887
+      ],
+      "position": [
+        0,
+        35
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "sealedTipBox",
+      "name": "密闭垃圾厢",
+      "cell": [
+        507,
+        30,
+        1583,
+        447
+      ],
+      "position": [
+        431,
+        0
+      ],
+      "scale": 0.94,
+      "scaleX": 0.94
+    }
+  ]
+}

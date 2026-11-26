@@ -1,0 +1,59 @@
+{
+  "name": "侧装式垃圾车",
+  "intro": "curbLoadIntro",
+  "layers": [
+    "curbLoadHopper",
+    "curbLoadBase",
+    "curbLoadGrab"
+  ],
+  "parts": [
+    {
+      "id": "curbLoadBase",
+      "name": "行驶底盘",
+      "cell": [
+        61,
+        7,
+        1645,
+        436
+      ],
+      "position": [
+        0,
+        100
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "curbLoadHopper",
+      "name": "侧投垃圾厢",
+      "cell": [
+        14,
+        443,
+        1149,
+        890
+      ],
+      "position": [
+        404,
+        0
+      ],
+      "scale": 0.78,
+      "scaleX": 1.035
+    },
+    {
+      "id": "curbLoadGrab",
+      "name": "夹桶臂",
+      "cell": [
+        1186,
+        456,
+        1732,
+        890
+      ],
+      "position": [
+        420,
+        271
+      ],
+      "scale": 0.59,
+      "scaleX": 0.59
+    }
+  ]
+}

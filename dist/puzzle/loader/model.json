@@ -1,0 +1,41 @@
+{
+  "id": "loader",
+  "name": "轮式装载机（铲车）",
+  "width": 1856,
+  "height": 813,
+  "layers": [
+    "wheelLoaderFrame",
+    "wheelLoaderCab",
+    "wheelLoaderLift"
+  ],
+  "parts": [
+    {
+      "id": "wheelLoaderFrame",
+      "name": "动力底盘",
+      "file": "puzzle/loader/wheelLoaderFrame.webp",
+      "x": 575,
+      "y": 134,
+      "w": 1281,
+      "h": 679
+    },
+    {
+      "id": "wheelLoaderCab",
+      "name": "驾驶室",
+      "file": "puzzle/loader/wheelLoaderCab.webp",
+      "x": 1010,
+      "y": 0,
+      "w": 499,
+      "h": 444
+    },
+    {
+      "id": "wheelLoaderLift",
+      "name": "动臂和铲斗",
+      "file": "puzzle/loader/wheelLoaderLift.webp",
+      "x": 0,
+      "y": 145,
+      "w": 1018,
+      "h": 376
+    }
+  ],
+  "intro": "wheelLoaderIntro"
+}

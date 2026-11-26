@@ -1,0 +1,41 @@
+{
+  "name": "后装压缩式垃圾车",
+  "intro": "refuseRearIntro",
+  "layers": [
+    "refuseRearChassis",
+    "refuseRearBody",
+    "refuseRearPacker"
+  ],
+  "id": "rear-load-refuse-truck",
+  "width": 1475,
+  "height": 526,
+  "parts": [
+    {
+      "id": "refuseRearChassis",
+      "name": "带驾驶室的底盘",
+      "file": "puzzle/rear-load-refuse-truck/refuseRearChassis.webp",
+      "x": 0,
+      "y": 89,
+      "w": 1230,
+      "h": 437
+    },
+    {
+      "id": "refuseRearBody",
+      "name": "垃圾厢",
+      "file": "puzzle/rear-load-refuse-truck/refuseRearBody.webp",
+      "x": 350,
+      "y": 4,
+      "w": 764,
+      "h": 343
+    },
+    {
+      "id": "refuseRearPacker",
+      "name": "车尾填装器",
+      "file": "puzzle/rear-load-refuse-truck/refuseRearPacker.webp",
+      "x": 1059,
+      "y": 0,
+      "w": 416,
+      "h": 407
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "前装叉举式垃圾车",
+  "intro": "frontForkIntro",
+  "layers": [
+    "frontForkCarrier",
+    "frontForkBox"
+  ],
+  "id": "front-fork-refuse-truck",
+  "width": 1876,
+  "height": 584,
+  "parts": [
+    {
+      "id": "frontForkCarrier",
+      "name": "叉举车身",
+      "file": "puzzle/front-fork-refuse-truck/frontForkCarrier.webp",
+      "x": 0,
+      "y": 0,
+      "w": 1726,
+      "h": 563
+    },
+    {
+      "id": "frontForkBox",
+      "name": "前装垃圾箱",
+      "file": "puzzle/front-fork-refuse-truck/frontForkBox.webp",
+      "x": 1470,
+      "y": 388,
+      "w": 406,
+      "h": 196
+    }
+  ],
+  "foreground": {
+    "part": "frontForkCarrier",
+    "withPart": "frontForkBox",
+    "insetPercent": [
+      87.56660746003553,
+      8.806488991888761,
+      6.571936056838368,
+      84.58864426419467
+    ]
+  }
+}

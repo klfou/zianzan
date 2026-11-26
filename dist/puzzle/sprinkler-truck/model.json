@@ -1,0 +1,52 @@
+{
+  "id": "sprinkler-truck",
+  "name": "洒水车",
+  "width": 1073,
+  "height": 380,
+  "parts": [
+    {
+      "id": "sprinklerCab",
+      "name": "行驶底盘",
+      "file": "puzzle/sprinkler-truck/sprinklerCab.webp",
+      "x": 5,
+      "y": 38,
+      "w": 905,
+      "h": 342
+    },
+    {
+      "id": "sprinklerTank",
+      "name": "储水罐",
+      "file": "puzzle/sprinkler-truck/sprinklerTank.webp",
+      "x": 275,
+      "y": 0,
+      "w": 665,
+      "h": 250
+    },
+    {
+      "id": "sprinklerJets",
+      "name": "前冲和侧喷装置",
+      "file": "puzzle/sprinkler-truck/sprinklerJets.webp",
+      "x": 0,
+      "y": 281,
+      "w": 171,
+      "h": 67
+    },
+    {
+      "id": "sprinklerDeck",
+      "name": "洒水平台",
+      "file": "puzzle/sprinkler-truck/sprinklerDeck.webp",
+      "x": 876,
+      "y": 195,
+      "w": 197,
+      "h": 96
+    }
+  ],
+  "layers": [
+    "sprinklerTank",
+    "sprinklerCab",
+    "sprinklerDeck",
+    "sprinklerJets"
+  ],
+  "intro": "sprinklerWashIntro",
+  "completedView": "puzzle/sprinkler-truck/washing.webp"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "圆捆打捆机",
+  "intro": "fieldBaleIntro",
+  "layers": [
+    "fieldBaleRoll",
+    "fieldBaleChamber",
+    "fieldBaleTractor",
+    "fieldBalePickup"
+  ],
+  "parts": [
+    {
+      "id": "fieldBaleTractor",
+      "name": "牵引车",
+      "cell": [
+        44,
+        3,
+        829,
+        532
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "fieldBalePickup",
+      "name": "捡拾器",
+      "cell": [
+        881,
+        221,
+        1458,
+        494
+      ],
+      "position": [
+        984,
+        362
+      ],
+      "scale": 0.44,
+      "scaleX": 0.44
+    },
+    {
+      "id": "fieldBaleChamber",
+      "name": "打捆机身",
+      "cell": [
+        38,
+        544,
+        1033,
+        1013
+      ],
+      "position": [
+        736,
+        82
+      ],
+      "scale": 0.94,
+      "scaleX": 0.94
+    },
+    {
+      "id": "fieldBaleRoll",
+      "name": "圆草捆",
+      "cell": [
+        1046,
+        615,
+        1489,
+        987
+      ],
+      "position": [
+        1570,
+        264
+      ],
+      "scale": 0.7,
+      "scaleX": 0.7
+    }
+  ]
+}

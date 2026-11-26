@@ -1,0 +1,56 @@
+{
+  "name": "挖掘装载机",
+  "intro": "bhWorkIntro",
+  "layers": [
+    "bhWorkBase",
+    "bhWorkDigger",
+    "bhWorkLoader"
+  ],
+  "parts": [
+    {
+      "id": "bhWorkBase",
+      "name": "行走底盘",
+      "cell": [
+        271,
+        6,
+        1147,
+        593
+      ],
+      "position": [
+        344,
+        89
+      ],
+      "scale": 1
+    },
+    {
+      "id": "bhWorkLoader",
+      "name": "前装载斗",
+      "cell": [
+        688,
+        621,
+        1519,
+        1013
+      ],
+      "position": [
+        917,
+        391
+      ],
+      "scale": 0.67
+    },
+    {
+      "id": "bhWorkDigger",
+      "name": "后挖掘臂",
+      "cell": [
+        22,
+        574,
+        585,
+        1016
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "scale": 0.8
+    }
+  ]
+}

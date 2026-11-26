@@ -1,0 +1,51 @@
+{
+  "id": "truck-crane",
+  "name": "汽车起重机",
+  "width": 981,
+  "height": 668,
+  "layers": [
+    "truckCraneCarrier",
+    "truckCraneHook",
+    "truckCraneBoom",
+    "truckCraneTurret"
+  ],
+  "parts": [
+    {
+      "id": "truckCraneCarrier",
+      "name": "行驶底盘",
+      "file": "puzzle/truck-crane/truckCraneCarrier.webp",
+      "x": 138,
+      "y": 291,
+      "w": 820,
+      "h": 377
+    },
+    {
+      "id": "truckCraneTurret",
+      "name": "回转平台",
+      "file": "puzzle/truck-crane/truckCraneTurret.webp",
+      "x": 585,
+      "y": 266,
+      "w": 396,
+      "h": 192
+    },
+    {
+      "id": "truckCraneBoom",
+      "name": "伸缩吊臂",
+      "file": "puzzle/truck-crane/truckCraneBoom.webp",
+      "x": 0,
+      "y": 0,
+      "w": 860,
+      "h": 363
+    },
+    {
+      "id": "truckCraneHook",
+      "name": "钢丝绳和吊钩",
+      "file": "puzzle/truck-crane/truckCraneHook.webp",
+      "x": 10,
+      "y": 43,
+      "w": 69,
+      "h": 218
+    }
+  ],
+  "intro": "truckCraneIntro"
+}

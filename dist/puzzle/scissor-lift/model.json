@@ -1,0 +1,41 @@
+{
+  "name": "剪叉式升降车",
+  "intro": "scissorLiftIntro",
+  "parts": [
+    {
+      "id": "scissorLiftBase",
+      "name": "行走底盘",
+      "file": "puzzle/scissor-lift/scissorLiftBase.webp",
+      "x": 0,
+      "y": 210,
+      "w": 1289,
+      "h": 561
+    },
+    {
+      "id": "scissorLiftArms",
+      "name": "剪叉臂",
+      "file": "puzzle/scissor-lift/scissorLiftArms.webp",
+      "x": 463,
+      "y": 278,
+      "w": 723,
+      "h": 230
+    },
+    {
+      "id": "scissorLiftDeck",
+      "name": "作业平台",
+      "file": "puzzle/scissor-lift/scissorLiftDeck.webp",
+      "x": 411,
+      "y": 0,
+      "w": 822,
+      "h": 292
+    }
+  ],
+  "layers": [
+    "scissorLiftArms",
+    "scissorLiftBase",
+    "scissorLiftDeck"
+  ],
+  "id": "scissor-lift",
+  "width": 1289,
+  "height": 771
+}

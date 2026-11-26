@@ -1,0 +1,51 @@
+{
+  "id": "paving-machine",
+  "name": "沥青摊铺机",
+  "width": 1279,
+  "height": 605,
+  "parts": [
+    {
+      "id": "paverBase",
+      "name": "履带底盘",
+      "file": "puzzle/paving-machine/paverBase.webp",
+      "x": 261,
+      "y": 242,
+      "w": 731,
+      "h": 351
+    },
+    {
+      "id": "paverStation",
+      "name": "操作台",
+      "file": "puzzle/paving-machine/paverStation.webp",
+      "x": 591,
+      "y": 0,
+      "w": 323,
+      "h": 291
+    },
+    {
+      "id": "paverHopper",
+      "name": "受料斗",
+      "file": "puzzle/paving-machine/paverHopper.webp",
+      "x": 0,
+      "y": 325,
+      "w": 392,
+      "h": 221
+    },
+    {
+      "id": "paverScreed",
+      "name": "熨平板",
+      "file": "puzzle/paving-machine/paverScreed.webp",
+      "x": 955,
+      "y": 433,
+      "w": 324,
+      "h": 172
+    }
+  ],
+  "layers": [
+    "paverStation",
+    "paverHopper",
+    "paverScreed",
+    "paverBase"
+  ],
+  "intro": "paverIntro"
+}

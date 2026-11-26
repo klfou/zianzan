@@ -1,0 +1,59 @@
+{
+  "name": "盾构机",
+  "intro": "epbWorkIntro",
+  "layers": [
+    "epbWorkShell",
+    "epbWorkScrew",
+    "epbWorkHead"
+  ],
+  "parts": [
+    {
+      "id": "epbWorkShell",
+      "name": "盾体",
+      "cell": [
+        342,
+        7,
+        1348,
+        540
+      ],
+      "position": [
+        50,
+        0
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "epbWorkHead",
+      "name": "刀盘",
+      "cell": [
+        24,
+        478,
+        461,
+        1009
+      ],
+      "position": [
+        0,
+        1
+      ],
+      "scale": 1,
+      "scaleX": 0.6
+    },
+    {
+      "id": "epbWorkScrew",
+      "name": "螺旋输送机",
+      "cell": [
+        501,
+        578,
+        1511,
+        1003
+      ],
+      "position": [
+        310,
+        245
+      ],
+      "scale": 0.56,
+      "scaleX": 0.68
+    }
+  ]
+}

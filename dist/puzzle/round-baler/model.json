@@ -1,0 +1,51 @@
+{
+  "name": "圆捆打捆机",
+  "intro": "fieldBaleIntro",
+  "layers": [
+    "fieldBaleRoll",
+    "fieldBaleChamber",
+    "fieldBaleTractor",
+    "fieldBalePickup"
+  ],
+  "id": "round-baler",
+  "width": 1880,
+  "height": 529,
+  "parts": [
+    {
+      "id": "fieldBaleTractor",
+      "name": "牵引车",
+      "file": "puzzle/round-baler/fieldBaleTractor.webp",
+      "x": 0,
+      "y": 0,
+      "w": 785,
+      "h": 529
+    },
+    {
+      "id": "fieldBalePickup",
+      "name": "捡拾器",
+      "file": "puzzle/round-baler/fieldBalePickup.webp",
+      "x": 984,
+      "y": 362,
+      "w": 254,
+      "h": 120
+    },
+    {
+      "id": "fieldBaleChamber",
+      "name": "打捆机身",
+      "file": "puzzle/round-baler/fieldBaleChamber.webp",
+      "x": 736,
+      "y": 82,
+      "w": 935,
+      "h": 441
+    },
+    {
+      "id": "fieldBaleRoll",
+      "name": "圆草捆",
+      "file": "puzzle/round-baler/fieldBaleRoll.webp",
+      "x": 1570,
+      "y": 264,
+      "w": 310,
+      "h": 260
+    }
+  ]
+}

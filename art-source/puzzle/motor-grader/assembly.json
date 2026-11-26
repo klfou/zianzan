@@ -1,0 +1,65 @@
+{
+  "name": "平地机",
+  "intro": "motorGraderIntro",
+  "parts": [
+    {
+      "id": "motorGraderChassis",
+      "name": "行走底盘",
+      "cell": [
+        48,
+        16,
+        1475,
+        507
+      ],
+      "position": [
+        0,
+        68
+      ],
+      "scale": 1
+    },
+    {
+      "id": "motorGraderCab",
+      "name": "驾驶室",
+      "cell": [
+        75,
+        543,
+        413,
+        955
+      ],
+      "position": [
+        765,
+        0
+      ],
+      "scale": 0.69
+    },
+    {
+      "id": "motorGraderBlade",
+      "name": "平地铲刀",
+      "cell": [
+        636,
+        584,
+        1422,
+        980
+      ],
+      "position": [
+        226,
+        285
+      ],
+      "scale": 0.67,
+      "cylinderFit": {
+        "splitX": 444,
+        "eyeBandEndY": 42,
+        "circleY": 178,
+        "upperEyeOffsetsX": [
+          -101,
+          101
+        ]
+      }
+    }
+  ],
+  "layers": [
+    "motorGraderBlade",
+    "motorGraderChassis",
+    "motorGraderCab"
+  ]
+}

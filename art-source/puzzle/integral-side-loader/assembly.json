@@ -1,0 +1,59 @@
+{
+  "name": "夹桶式垃圾车",
+  "intro": "sidePackIntro",
+  "layers": [
+    "sidePackFrame",
+    "sidePackCab",
+    "sidePackBody"
+  ],
+  "parts": [
+    {
+      "id": "sidePackFrame",
+      "name": "行驶底盘",
+      "cell": [
+        24,
+        606,
+        1720,
+        896
+      ],
+      "position": [
+        105,
+        440
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "sidePackCab",
+      "name": "车头",
+      "cell": [
+        15,
+        79,
+        405,
+        532
+      ],
+      "position": [
+        0,
+        53
+      ],
+      "scale": 1.22,
+      "scaleX": 1.22
+    },
+    {
+      "id": "sidePackBody",
+      "name": "带夹桶臂的垃圾厢",
+      "cell": [
+        450,
+        11,
+        1740,
+        532
+      ],
+      "position": [
+        496,
+        0
+      ],
+      "scale": 1.01,
+      "scaleX": 1.01
+    }
+  ]
+}

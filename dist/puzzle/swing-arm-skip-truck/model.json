@@ -1,0 +1,41 @@
+{
+  "name": "摆臂式垃圾车",
+  "intro": "swingSkipIntro",
+  "layers": [
+    "swingSkipChassis",
+    "swingSkipBowl",
+    "swingSkipArms"
+  ],
+  "id": "swing-arm-skip-truck",
+  "width": 1888,
+  "height": 590,
+  "parts": [
+    {
+      "id": "swingSkipChassis",
+      "name": "车身",
+      "file": "puzzle/swing-arm-skip-truck/swingSkipChassis.webp",
+      "x": 0,
+      "y": 0,
+      "w": 1272,
+      "h": 590
+    },
+    {
+      "id": "swingSkipArms",
+      "name": "带吊钩的摆臂",
+      "file": "puzzle/swing-arm-skip-truck/swingSkipArms.webp",
+      "x": 817,
+      "y": 0,
+      "w": 937,
+      "h": 444
+    },
+    {
+      "id": "swingSkipBowl",
+      "name": "船形垃圾斗",
+      "file": "puzzle/swing-arm-skip-truck/swingSkipBowl.webp",
+      "x": 1266,
+      "y": 336,
+      "w": 622,
+      "h": 187
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "timber-truck",
+  "name": "运木车",
+  "width": 1205,
+  "height": 437,
+  "layers": [
+    "timberTrailer",
+    "timberTractor",
+    "timberBunks"
+  ],
+  "parts": [
+    {
+      "id": "timberTractor",
+      "name": "牵引车",
+      "file": "puzzle/timber-truck/timberTractor.webp",
+      "x": 0,
+      "y": 1,
+      "w": 557,
+      "h": 436
+    },
+    {
+      "id": "timberTrailer",
+      "name": "挂车底盘",
+      "file": "puzzle/timber-truck/timberTrailer.webp",
+      "x": 349,
+      "y": 203,
+      "w": 856,
+      "h": 233
+    },
+    {
+      "id": "timberBunks",
+      "name": "载木架",
+      "file": "puzzle/timber-truck/timberBunks.webp",
+      "x": 349,
+      "y": 0,
+      "w": 852,
+      "h": 209
+    }
+  ],
+  "intro": "timberIntro"
+}

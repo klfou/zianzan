@@ -1,0 +1,59 @@
+{
+  "name": "餐厨垃圾车",
+  "intro": "kitchenRunIntro",
+  "layers": [
+    "kitchenRunFrame",
+    "kitchenRunCab",
+    "kitchenRunTank"
+  ],
+  "parts": [
+    {
+      "id": "kitchenRunFrame",
+      "name": "行驶底盘",
+      "cell": [
+        221,
+        551,
+        1599,
+        887
+      ],
+      "position": [
+        85,
+        403
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "kitchenRunCab",
+      "name": "车头",
+      "cell": [
+        170,
+        31,
+        628,
+        537
+      ],
+      "position": [
+        0,
+        135
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "kitchenRunTank",
+      "name": "餐厨垃圾罐",
+      "cell": [
+        716,
+        20,
+        1640,
+        519
+      ],
+      "position": [
+        487,
+        0
+      ],
+      "scale": 1,
+      "scaleX": 1.045
+    }
+  ]
+}

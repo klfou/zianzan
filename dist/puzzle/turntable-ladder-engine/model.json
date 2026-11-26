@@ -1,0 +1,51 @@
+{
+  "name": "云梯消防车",
+  "intro": "turnLadderIntro",
+  "layers": [
+    "turnLadderBase",
+    "turnLadderCab",
+    "turnLadderBasket",
+    "turnLadderBoom"
+  ],
+  "id": "turntable-ladder-engine",
+  "width": 1383,
+  "height": 689,
+  "parts": [
+    {
+      "id": "turnLadderBase",
+      "name": "器材底盘",
+      "file": "puzzle/turntable-ladder-engine/turnLadderBase.webp",
+      "x": 171,
+      "y": 401,
+      "w": 1212,
+      "h": 288
+    },
+    {
+      "id": "turnLadderCab",
+      "name": "驾驶室",
+      "file": "puzzle/turntable-ladder-engine/turnLadderCab.webp",
+      "x": 118,
+      "y": 152,
+      "w": 397,
+      "h": 457
+    },
+    {
+      "id": "turnLadderBoom",
+      "name": "回转云梯",
+      "file": "puzzle/turntable-ladder-engine/turnLadderBoom.webp",
+      "x": 171,
+      "y": 17,
+      "w": 1193,
+      "h": 394
+    },
+    {
+      "id": "turnLadderBasket",
+      "name": "救援篮",
+      "file": "puzzle/turntable-ladder-engine/turnLadderBasket.webp",
+      "x": 0,
+      "y": 0,
+      "w": 210,
+      "h": 194
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "水罐消防车",
+  "intro": "fireTenderIntro",
+  "layers": [
+    "fireTenderFrame",
+    "fireTenderBody",
+    "fireTenderCab"
+  ],
+  "parts": [
+    {
+      "id": "fireTenderFrame",
+      "name": "底盘",
+      "cell": [
+        12,
+        14,
+        1465,
+        270
+      ],
+      "position": [
+        24,
+        378
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "fireTenderCab",
+      "name": "驾驶室",
+      "cell": [
+        12,
+        300,
+        461,
+        843
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "fireTenderBody",
+      "name": "消防车厢",
+      "cell": [
+        485,
+        334,
+        1463,
+        661
+      ],
+      "position": [
+        438,
+        51
+      ],
+      "scale": 1.03,
+      "scaleX": 1.03
+    }
+  ]
+}

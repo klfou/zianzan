@@ -1,0 +1,72 @@
+{
+  "name": "沥青摊铺机",
+  "intro": "paverIntro",
+  "parts": [
+    {
+      "id": "paverBase",
+      "name": "履带底盘",
+      "cell": [
+        0,
+        0,
+        850,
+        530
+      ],
+      "position": [
+        71,
+        155
+      ],
+      "scale": 1
+    },
+    {
+      "id": "paverStation",
+      "name": "操作台",
+      "cell": [
+        850,
+        0,
+        1536,
+        530
+      ],
+      "position": [
+        401,
+        -87
+      ],
+      "scale": 0.64
+    },
+    {
+      "id": "paverHopper",
+      "name": "受料斗",
+      "cell": [
+        0,
+        530,
+        750,
+        1024
+      ],
+      "position": [
+        -190,
+        238
+      ],
+      "scale": 0.57
+    },
+    {
+      "id": "paverScreed",
+      "name": "熨平板",
+      "cell": [
+        750,
+        530,
+        1536,
+        1024
+      ],
+      "position": [
+        765,
+        346
+      ],
+      "scale": 0.45
+    }
+  ],
+  "layers": [
+    "paverStation",
+    "paverHopper",
+    "paverScreed",
+    "paverBase"
+  ]
+}

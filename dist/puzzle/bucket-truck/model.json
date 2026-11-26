@@ -1,0 +1,41 @@
+{
+  "id": "bucket-truck",
+  "name": "高空作业车",
+  "width": 1449,
+  "height": 1005,
+  "layers": [
+    "bucketTruckBase",
+    "bucketTruckArm",
+    "bucketTruckBasket"
+  ],
+  "parts": [
+    {
+      "id": "bucketTruckBase",
+      "name": "带支腿的底盘",
+      "file": "puzzle/bucket-truck/bucketTruckBase.webp",
+      "x": 0,
+      "y": 309,
+      "w": 1327,
+      "h": 696
+    },
+    {
+      "id": "bucketTruckArm",
+      "name": "折叠臂",
+      "file": "puzzle/bucket-truck/bucketTruckArm.webp",
+      "x": 332,
+      "y": 112,
+      "w": 799,
+      "h": 520
+    },
+    {
+      "id": "bucketTruckBasket",
+      "name": "工作斗",
+      "file": "puzzle/bucket-truck/bucketTruckBasket.webp",
+      "x": 1095,
+      "y": 0,
+      "w": 354,
+      "h": 325
+    }
+  ],
+  "intro": "bucketTruckIntro"
+}

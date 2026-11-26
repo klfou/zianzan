@@ -1,0 +1,51 @@
+{
+  "id": "crawler-dozer",
+  "name": "履带式推土机",
+  "width": 944,
+  "height": 463,
+  "layers": [
+    "crawlerDozerCab",
+    "crawlerDozerEngine",
+    "crawlerDozerBase",
+    "crawlerDozerBlade"
+  ],
+  "parts": [
+    {
+      "id": "crawlerDozerBase",
+      "name": "履带底盘",
+      "file": "puzzle/crawler-dozer/crawlerDozerBase.webp",
+      "x": 218,
+      "y": 213,
+      "w": 726,
+      "h": 250
+    },
+    {
+      "id": "crawlerDozerEngine",
+      "name": "发动机舱",
+      "file": "puzzle/crawler-dozer/crawlerDozerEngine.webp",
+      "x": 357,
+      "y": 136,
+      "w": 319,
+      "h": 127
+    },
+    {
+      "id": "crawlerDozerCab",
+      "name": "驾驶室",
+      "file": "puzzle/crawler-dozer/crawlerDozerCab.webp",
+      "x": 615,
+      "y": 0,
+      "w": 296,
+      "h": 247
+    },
+    {
+      "id": "crawlerDozerBlade",
+      "name": "推土铲和推架",
+      "file": "puzzle/crawler-dozer/crawlerDozerBlade.webp",
+      "x": 0,
+      "y": 187,
+      "w": 617,
+      "h": 276
+    }
+  ],
+  "intro": "crawlerDozerIntro"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "乘坐式插秧机",
+  "intro": "paddySeatIntro",
+  "layers": [
+    "paddySeatClaws",
+    "paddySeatRack",
+    "paddySeatStation",
+    "paddySeatBase"
+  ],
+  "id": "rice-transplanter",
+  "width": 1528,
+  "height": 605,
+  "parts": [
+    {
+      "id": "paddySeatBase",
+      "name": "水田底盘",
+      "file": "puzzle/rice-transplanter/paddySeatBase.webp",
+      "x": 0,
+      "y": 170,
+      "w": 899,
+      "h": 435
+    },
+    {
+      "id": "paddySeatStation",
+      "name": "驾驶台",
+      "file": "puzzle/rice-transplanter/paddySeatStation.webp",
+      "x": 252,
+      "y": 117,
+      "w": 306,
+      "h": 225
+    },
+    {
+      "id": "paddySeatRack",
+      "name": "秧苗架",
+      "file": "puzzle/rice-transplanter/paddySeatRack.webp",
+      "x": 975,
+      "y": 0,
+      "w": 553,
+      "h": 296
+    },
+    {
+      "id": "paddySeatClaws",
+      "name": "插秧机构",
+      "file": "puzzle/rice-transplanter/paddySeatClaws.webp",
+      "x": 854,
+      "y": 167,
+      "w": 659,
+      "h": 355
+    }
+  ]
+}

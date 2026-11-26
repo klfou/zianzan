@@ -1,0 +1,51 @@
+{
+  "id": "mixer",
+  "name": "混凝土搅拌车",
+  "width": 1728,
+  "height": 822,
+  "layers": [
+    "mixerFrame",
+    "mixerCab",
+    "mixerDrum",
+    "mixerChute"
+  ],
+  "parts": [
+    {
+      "id": "mixerFrame",
+      "name": "轮式底盘",
+      "file": "puzzle/mixer/mixerFrame.webp",
+      "x": 0,
+      "y": 460,
+      "w": 1487,
+      "h": 362
+    },
+    {
+      "id": "mixerCab",
+      "name": "驾驶室",
+      "file": "puzzle/mixer/mixerCab.webp",
+      "x": 19,
+      "y": 1,
+      "w": 539,
+      "h": 587
+    },
+    {
+      "id": "mixerDrum",
+      "name": "搅拌筒",
+      "file": "puzzle/mixer/mixerDrum.webp",
+      "x": 557,
+      "y": 0,
+      "w": 825,
+      "h": 489
+    },
+    {
+      "id": "mixerChute",
+      "name": "卸料槽",
+      "file": "puzzle/mixer/mixerChute.webp",
+      "x": 1304,
+      "y": 48,
+      "w": 424,
+      "h": 577
+    }
+  ],
+  "intro": "mixerIntro"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "skid-steer",
+  "name": "滑移装载机",
+  "width": 934,
+  "height": 571,
+  "parts": [
+    {
+      "id": "skidSteerBase",
+      "name": "行走底盘",
+      "file": "puzzle/skid-steer/skidSteerBase.webp",
+      "x": 0,
+      "y": 155,
+      "w": 694,
+      "h": 416
+    },
+    {
+      "id": "skidSteerCab",
+      "name": "驾驶室",
+      "file": "puzzle/skid-steer/skidSteerCab.webp",
+      "x": 283,
+      "y": 0,
+      "w": 300,
+      "h": 282
+    },
+    {
+      "id": "skidSteerLift",
+      "name": "举升臂",
+      "file": "puzzle/skid-steer/skidSteerLift.webp",
+      "x": 80,
+      "y": 141,
+      "w": 645,
+      "h": 419
+    },
+    {
+      "id": "skidSteerBucket",
+      "name": "铲斗",
+      "file": "puzzle/skid-steer/skidSteerBucket.webp",
+      "x": 696,
+      "y": 431,
+      "w": 238,
+      "h": 121
+    }
+  ],
+  "layers": [
+    "skidSteerBase",
+    "skidSteerCab",
+    "skidSteerLift",
+    "skidSteerBucket"
+  ],
+  "intro": "skidSteerIntro"
+}

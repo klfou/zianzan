@@ -1,0 +1,76 @@
+{
+  "name": "联合收割机",
+  "intro": "grainCombineIntro",
+  "layers": [
+    "grainCombineBase",
+    "grainCombineBody",
+    "grainCombineAuger",
+    "grainCombineHeader"
+  ],
+  "parts": [
+    {
+      "id": "grainCombineBase",
+      "name": "行走底盘",
+      "cell": [
+        50,
+        178,
+        832,
+        518
+      ],
+      "position": [
+        574,
+        303
+      ],
+      "scale": 0.82,
+      "scaleX": 0.82
+    },
+    {
+      "id": "grainCombineBody",
+      "name": "收割车身",
+      "cell": [
+        921,
+        16,
+        1762,
+        524
+      ],
+      "position": [
+        385,
+        0
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "grainCombineHeader",
+      "name": "割台",
+      "cell": [
+        23,
+        580,
+        885,
+        873
+      ],
+      "position": [
+        0,
+        371
+      ],
+      "scale": 0.74,
+      "scaleX": 0.74
+    },
+    {
+      "id": "grainCombineAuger",
+      "name": "卸粮筒",
+      "cell": [
+        968,
+        630,
+        1730,
+        798
+      ],
+      "position": [
+        815,
+        128
+      ],
+      "scale": 0.59,
+      "scaleX": 0.59
+    }
+  ]
+}

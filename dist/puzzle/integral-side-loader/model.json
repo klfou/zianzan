@@ -1,0 +1,41 @@
+{
+  "name": "夹桶式垃圾车",
+  "intro": "sidePackIntro",
+  "layers": [
+    "sidePackFrame",
+    "sidePackCab",
+    "sidePackBody"
+  ],
+  "id": "integral-side-loader",
+  "width": 1801,
+  "height": 730,
+  "parts": [
+    {
+      "id": "sidePackFrame",
+      "name": "行驶底盘",
+      "file": "puzzle/integral-side-loader/sidePackFrame.webp",
+      "x": 105,
+      "y": 440,
+      "w": 1696,
+      "h": 290
+    },
+    {
+      "id": "sidePackCab",
+      "name": "车头",
+      "file": "puzzle/integral-side-loader/sidePackCab.webp",
+      "x": 0,
+      "y": 53,
+      "w": 476,
+      "h": 553
+    },
+    {
+      "id": "sidePackBody",
+      "name": "带夹桶臂的垃圾厢",
+      "file": "puzzle/integral-side-loader/sidePackBody.webp",
+      "x": 496,
+      "y": 0,
+      "w": 1303,
+      "h": 526
+    }
+  ]
+}

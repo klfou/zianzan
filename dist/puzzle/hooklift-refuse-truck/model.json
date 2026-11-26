@@ -1,0 +1,41 @@
+{
+  "name": "拉臂式垃圾车",
+  "intro": "binLiftIntro",
+  "layers": [
+    "binLiftCab",
+    "binLiftBox",
+    "binLiftArm"
+  ],
+  "id": "hooklift-refuse-truck",
+  "width": 1384,
+  "height": 581,
+  "parts": [
+    {
+      "id": "binLiftCab",
+      "name": "行驶底盘",
+      "file": "puzzle/hooklift-refuse-truck/binLiftCab.webp",
+      "x": 0,
+      "y": 28,
+      "w": 1383,
+      "h": 553
+    },
+    {
+      "id": "binLiftArm",
+      "name": "拉臂",
+      "file": "puzzle/hooklift-refuse-truck/binLiftArm.webp",
+      "x": 370,
+      "y": 83,
+      "w": 990,
+      "h": 295
+    },
+    {
+      "id": "binLiftBox",
+      "name": "可卸垃圾箱",
+      "file": "puzzle/hooklift-refuse-truck/binLiftBox.webp",
+      "x": 430,
+      "y": 0,
+      "w": 954,
+      "h": 339
+    }
+  ]
+}

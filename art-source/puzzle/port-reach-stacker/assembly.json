@@ -1,0 +1,83 @@
+{
+  "name": "集装箱正面吊",
+  "intro": "portLiftIntro",
+  "layers": [
+    "portLiftCarrier",
+    "portLiftBox",
+    "portLiftSpreader",
+    "portLiftBoom"
+  ],
+  "parts": [
+    {
+      "id": "portLiftCarrier",
+      "name": "车身",
+      "cell": [
+        5,
+        95,
+        1775,
+        884
+      ],
+      "position": [
+        2,
+        344
+      ],
+      "scale": 0.46,
+      "scaleX": 0.46,
+      "source": "carrier-master.png"
+    },
+    {
+      "id": "portLiftBoom",
+      "name": "伸缩臂",
+      "cell": [
+        878,
+        55,
+        1765,
+        422
+      ],
+      "position": [
+        47,
+        0
+      ],
+      "scale": 1.32,
+      "scaleX": 1.32
+    },
+    {
+      "id": "portLiftSpreader",
+      "name": "吊具",
+      "cell": [
+        181,
+        502,
+        829,
+        815
+      ],
+      "position": [
+        954,
+        247
+      ],
+      "scale": 0.59,
+      "scaleX": 0.59
+    },
+    {
+      "id": "portLiftBox",
+      "name": "集装箱",
+      "cell": [
+        1017,
+        455,
+        1634,
+        857
+      ],
+      "position": [
+        961,
+        377
+      ],
+      "scale": 0.7,
+      "scaleX": 1,
+      "projection": {
+        "splitX": 343,
+        "nearX": 0.803,
+        "farX": 0.32,
+        "height": 0.7
+      }
+    }
+  ]
+}
