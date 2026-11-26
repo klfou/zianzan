@@ -1,0 +1,76 @@
+{
+  "name": "旋挖钻机",
+  "intro": "kellyRigIntro",
+  "layers": [
+    "kellyRigMast",
+    "kellyRigTracks",
+    "kellyRigHouse",
+    "kellyRigTool"
+  ],
+  "parts": [
+    {
+      "id": "kellyRigTracks",
+      "name": "履带底盘",
+      "cell": [
+        26,
+        714,
+        886,
+        999
+      ],
+      "position": [
+        0,
+        968
+      ],
+      "scale": 0.55,
+      "scaleX": 0.55
+    },
+    {
+      "id": "kellyRigHouse",
+      "name": "回转车身",
+      "cell": [
+        37,
+        189,
+        845,
+        642
+      ],
+      "position": [
+        32,
+        736
+      ],
+      "scale": 0.55,
+      "scaleX": 0.55
+    },
+    {
+      "id": "kellyRigMast",
+      "name": "桅杆",
+      "cell": [
+        924,
+        3,
+        1148,
+        1013
+      ],
+      "position": [
+        423,
+        0
+      ],
+      "scale": 1,
+      "scaleX": 0.56
+    },
+    {
+      "id": "kellyRigTool",
+      "name": "钻杆和钻斗",
+      "cell": [
+        1194,
+        9,
+        1475,
+        989
+      ],
+      "position": [
+        509,
+        336
+      ],
+      "scale": 0.79,
+      "scaleX": 0.79
+    }
+  ]
+}

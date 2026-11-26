@@ -1,0 +1,31 @@
+{
+  "name": "拖拉机带翻转犁",
+  "intro": "revPloughIntro",
+  "layers": [
+    "revPloughTool",
+    "revPloughTractor"
+  ],
+  "id": "reversible-plough",
+  "width": 2054,
+  "height": 713,
+  "parts": [
+    {
+      "id": "revPloughTractor",
+      "name": "拖拉机",
+      "file": "puzzle/reversible-plough/revPloughTractor.webp",
+      "x": 0,
+      "y": 0,
+      "w": 1136,
+      "h": 713
+    },
+    {
+      "id": "revPloughTool",
+      "name": "翻转犁",
+      "file": "puzzle/reversible-plough/revPloughTool.webp",
+      "x": 1086,
+      "y": 172,
+      "w": 968,
+      "h": 519
+    }
+  ]
+}

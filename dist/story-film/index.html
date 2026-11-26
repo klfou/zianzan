@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>旧木场的第一盏灯 · 故事动画</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3e8cf;color:#284b42;font:17px/1.55 "Microsoft YaHei",system-ui,sans-serif}main{max-width:1120px;margin:auto;padding:clamp(14px,3vw,36px)}header{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:14px}h1{font-size:clamp(22px,3vw,34px);margin:0}a,button{font:inherit;color:inherit}a{text-underline-offset:.2em}video{display:block;width:100%;aspect-ratio:16/9;border-radius:12px;background:#183c33}nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}button{cursor:pointer;border:1px solid #bea572;border-radius:18px;background:#fff5dc;padding:8px 14px}button[aria-current=true]{color:white;background:#315d4e}button:focus-visible,a:focus-visible{outline:3px solid #1f716b}
+</style>
+<main><header><h1>旧木场的第一盏灯</h1><a href="../">回到游戏</a></header>
+<video id="film" controls playsinline preload="metadata" poster="cover.webp" aria-label="旧木场的第一盏灯，带普通话旁白和中文字幕">
+<source src="first-light.mp4" type="video/mp4"></video><nav aria-label="跳到故事段落" id="chapters"></nav></main>
+<script type="module">
+const film=document.querySelector('#film'),nav=document.querySelector('#chapters');
+const chapters=await fetch('chapters.json').then(r=>r.json());
+const videoUrl=film.querySelector('source').src;
+const ranges=fetch(videoUrl+'?probe',{method:'HEAD'}).then(r=>r.headers.get('accept-ranges')==='bytes').catch(()=>false);
+let localCopy,selection=0;
+async function seek(start){
+  const request=++selection;
+  if(start>0 && !film.src.startsWith('blob:') && !(await ranges)){
+    localCopy??=fetch(videoUrl+'?seekable').then(r=>{if(!r.ok)throw Error();return r.blob()}).then(blob=>URL.createObjectURL(blob)).catch(e=>{localCopy=null;throw e});
+    const url=await localCopy;
+    if(request!==selection)return;
+    if(film.src!==url)film.src=url;
+  }
+  if(film.readyState<1)await new Promise(resolve=>film.addEventListener('loadedmetadata',resolve,{once:true}));
+  if(request!==selection)return;
+  film.currentTime=start;
+  await film.play();
+}
+for(const {title,start} of chapters){const b=document.createElement('button');b.textContent=title;b.onclick=()=>seek(start).catch(()=>{film.controls=true});nav.append(b)}
+function highlight(){let index=0;chapters.forEach((c,i)=>{if(film.currentTime>=c.start)index=i});[...nav.children].forEach((b,i)=>b.setAttribute('aria-current',String(i===index)))}
+film.addEventListener('timeupdate',highlight);highlight();
+</script></html>

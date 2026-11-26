@@ -1,0 +1,41 @@
+{
+  "name": "挖掘装载机",
+  "intro": "bhWorkIntro",
+  "layers": [
+    "bhWorkBase",
+    "bhWorkDigger",
+    "bhWorkLoader"
+  ],
+  "id": "backhoe-loader",
+  "width": 1474,
+  "height": 676,
+  "parts": [
+    {
+      "id": "bhWorkBase",
+      "name": "行走底盘",
+      "file": "puzzle/backhoe-loader/bhWorkBase.webp",
+      "x": 344,
+      "y": 89,
+      "w": 876,
+      "h": 587
+    },
+    {
+      "id": "bhWorkLoader",
+      "name": "前装载斗",
+      "file": "puzzle/backhoe-loader/bhWorkLoader.webp",
+      "x": 917,
+      "y": 391,
+      "w": 557,
+      "h": 263
+    },
+    {
+      "id": "bhWorkDigger",
+      "name": "后挖掘臂",
+      "file": "puzzle/backhoe-loader/bhWorkDigger.webp",
+      "x": 0,
+      "y": 0,
+      "w": 450,
+      "h": 354
+    }
+  ]
+}

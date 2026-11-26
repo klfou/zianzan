@@ -1,0 +1,51 @@
+{
+  "name": "矿用自卸车",
+  "intro": "quarryHaulIntro",
+  "layers": [
+    "quarryHaulBase",
+    "quarryHaulCab",
+    "quarryHaulRam",
+    "quarryHaulBed"
+  ],
+  "id": "mining-truck",
+  "width": 1239,
+  "height": 854,
+  "parts": [
+    {
+      "id": "quarryHaulBase",
+      "name": "轮式底盘",
+      "file": "puzzle/mining-truck/quarryHaulBase.webp",
+      "x": 0,
+      "y": 462,
+      "w": 1042,
+      "h": 392
+    },
+    {
+      "id": "quarryHaulCab",
+      "name": "驾驶平台",
+      "file": "puzzle/mining-truck/quarryHaulCab.webp",
+      "x": 0,
+      "y": 298,
+      "w": 344,
+      "h": 364
+    },
+    {
+      "id": "quarryHaulRam",
+      "name": "举升油缸",
+      "file": "puzzle/mining-truck/quarryHaulRam.webp",
+      "x": 538,
+      "y": 421,
+      "w": 81,
+      "h": 147
+    },
+    {
+      "id": "quarryHaulBed",
+      "name": "矿石车厢",
+      "file": "puzzle/mining-truck/quarryHaulBed.webp",
+      "x": 125,
+      "y": 0,
+      "w": 1114,
+      "h": 523
+    }
+  ]
+}

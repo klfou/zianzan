@@ -1,0 +1,7 @@
+{
+  "grainCombineIntro": "这是联合收割机。它一边割麦子，一边把麦粒收进粮仓。",
+  "grainCombineBase": "这是行走底盘。大轮子稳稳地托着车身，在麦田里向前走。",
+  "grainCombineBody": "这是收割车身。麦穗送进来，麦粒就从穗上分离出来了。",
+  "grainCombineHeader": "这是割台。拨禾轮把麦秆拨向割刀，再把割下的麦子送进车里。",
+  "grainCombineAuger": "这是卸粮筒。它伸向旁边的车厢，把粮仓里的麦粒送出去。"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "motor-grader",
+  "name": "平地机",
+  "intro": "motorGraderIntro",
+  "width": 1427,
+  "height": 559,
+  "parts": [
+    {
+      "id": "motorGraderChassis",
+      "name": "行走底盘",
+      "file": "puzzle/motor-grader/motorGraderChassis.webp",
+      "x": 0,
+      "y": 68,
+      "w": 1427,
+      "h": 491
+    },
+    {
+      "id": "motorGraderCab",
+      "name": "驾驶室",
+      "file": "puzzle/motor-grader/motorGraderCab.webp",
+      "x": 765,
+      "y": 0,
+      "w": 233,
+      "h": 284
+    },
+    {
+      "id": "motorGraderBlade",
+      "name": "平地铲刀",
+      "file": "puzzle/motor-grader/motorGraderBlade.webp",
+      "x": 226,
+      "y": 285,
+      "w": 527,
+      "h": 265
+    }
+  ],
+  "layers": [
+    "motorGraderBlade",
+    "motorGraderChassis",
+    "motorGraderCab"
+  ]
+}

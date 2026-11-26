@@ -1,0 +1,31 @@
+{
+  "name": "密闭自卸垃圾车",
+  "intro": "sealedTipIntro",
+  "layers": [
+    "sealedTipBox",
+    "sealedTipCab"
+  ],
+  "id": "sealed-refuse-tipper",
+  "width": 1502,
+  "height": 609,
+  "parts": [
+    {
+      "id": "sealedTipCab",
+      "name": "行驶底盘",
+      "file": "puzzle/sealed-refuse-tipper/sealedTipCab.webp",
+      "x": 0,
+      "y": 35,
+      "w": 1502,
+      "h": 574
+    },
+    {
+      "id": "sealedTipBox",
+      "name": "密闭垃圾厢",
+      "file": "puzzle/sealed-refuse-tipper/sealedTipBox.webp",
+      "x": 431,
+      "y": 0,
+      "w": 1011,
+      "h": 392
+    }
+  ]
+}

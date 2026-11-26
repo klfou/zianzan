@@ -1,0 +1,76 @@
+{
+  "name": "云梯消防车",
+  "intro": "turnLadderIntro",
+  "layers": [
+    "turnLadderBase",
+    "turnLadderCab",
+    "turnLadderBasket",
+    "turnLadderBoom"
+  ],
+  "parts": [
+    {
+      "id": "turnLadderBase",
+      "name": "器材底盘",
+      "cell": [
+        12,
+        943,
+        1224,
+        1231
+      ],
+      "position": [
+        171,
+        401
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "turnLadderCab",
+      "name": "驾驶室",
+      "cell": [
+        12,
+        460,
+        409,
+        917
+      ],
+      "position": [
+        118,
+        152
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "turnLadderBoom",
+      "name": "回转云梯",
+      "cell": [
+        12,
+        12,
+        1242,
+        418
+      ],
+      "position": [
+        171,
+        17
+      ],
+      "scale": 0.97,
+      "scaleX": 0.97
+    },
+    {
+      "id": "turnLadderBasket",
+      "name": "救援篮",
+      "cell": [
+        610,
+        545,
+        826,
+        745
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "scale": 0.97,
+      "scaleX": 0.97
+    }
+  ]
+}

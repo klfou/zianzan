@@ -1,0 +1,64 @@
+{
+  "name": "铰接式自卸车",
+  "intro": "bendHaulIntro",
+  "layers": [
+    "bendHaulTractor",
+    "bendHaulChassis",
+    "bendHaulBody"
+  ],
+  "parts": [
+    {
+      "id": "bendHaulTractor",
+      "name": "前车身",
+      "cell": [
+        43,
+        9,
+        812,
+        550
+      ],
+      "position": [
+        0,
+        35
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "bendHaulChassis",
+      "name": "后底盘",
+      "cell": [
+        877,
+        158,
+        1745,
+        554
+      ],
+      "position": [
+        705,
+        180
+      ],
+      "scale": 1,
+      "scaleX": 1,
+      "jointFit": {
+        "liftTongue": 79,
+        "blendWidth": 300,
+        "scale": 1
+      }
+    },
+    {
+      "id": "bendHaulBody",
+      "name": "翻斗车厢",
+      "cell": [
+        64,
+        518,
+        1713,
+        887
+      ],
+      "position": [
+        637,
+        0
+      ],
+      "scale": 0.65,
+      "scaleX": 0.65
+    }
+  ]
+}

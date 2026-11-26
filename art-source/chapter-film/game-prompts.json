@@ -1,0 +1,751 @@
+{
+  "title": "旧木场的第一盏灯",
+  "continuity": "旧砖房原址建三层故事屋；右侧健康大树贯穿全年。入口枯树的木料从端面狐狸印记追踪到二楼阅读桌。余土去场外收土场，填沟用土留场。黄色图书车、阿梨的青绿外套和狐狸绘本从雨天延续到雪天。",
+  "style": "沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+  "shots": [
+    {
+      "id": "rain",
+      "title": "雨把故事打断了",
+      "startSeconds": 0.0,
+      "endSeconds": 6.3,
+      "visualReferences": [
+        "keyframes/rain-start.jpg",
+        "keyframes/rain-action.jpg",
+        "keyframes/rain-end.jpg"
+      ],
+      "referenceFrames": [
+        0,
+        69,
+        125
+      ],
+      "assets": [
+        "panels/hearts-0.webp",
+        "masters/hearts.png"
+      ],
+      "voice": "voices/rain.wav",
+      "narration": "雨点落进绘本里。阿梨赶紧合上书，小狐狸还没推开那扇门呢。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《雨把故事打断了》的可分层游戏素材。角色或机械为移动图书车。开场构图为老路边，黄色图书车停靠；阿梨穿青绿外套，孩子们坐在车边。需要画清的动作是雨滴斜落，绘本由打开到合上；留着狐狸书签。末态保留未讲完的书留在车里。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《雨把故事打断了》改为可触摸的绘本场景。载入状态“老路边，黄色图书车停靠；阿梨穿青绿外套，孩子们坐在车边”。孩子的操作是“点绘本”。给书封设一个转轴。点绘本后先收书签再合上书，雨点不能穿过车棚。把同一本书的封面和书签留给结尾。 完成条件为“未讲完的书留在车里”。完成后进入“窗外要有一棵树”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "未讲完的书留在车里",
+      "next": "窗外要有一棵树"
+    },
+    {
+      "id": "wish",
+      "title": "窗外要有一棵树",
+      "startSeconds": 6.3,
+      "endSeconds": 12.95,
+      "visualReferences": [
+        "keyframes/wish-start.jpg",
+        "keyframes/wish-action.jpg",
+        "keyframes/wish-end.jpg"
+      ],
+      "referenceFrames": [
+        126,
+        199,
+        258
+      ],
+      "assets": [
+        "panels/hearts-1.webp",
+        "masters/hearts.png"
+      ],
+      "voice": "voices/wish.wav",
+      "narration": "孩子们画了座故事屋。二楼的窗要对着这棵大树，下雨也能读完最后一页。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《窗外要有一棵树》的可分层游戏素材。角色或机械为移动图书车。开场构图为雨停，旧砖房左、大树右，地面尚未施工。需要画清的动作是镜头从绘本转向房屋图纸，窗与右侧树冠呼应。末态保留建房地点和保留大树确定。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《窗外要有一棵树》改为可触摸的绘本场景。载入状态“雨停，旧砖房左、大树右，地面尚未施工”。孩子的操作是“点图纸上的窗”。轻点图纸上的窗，把图纸和实景中的树冠先后照亮。锁定旧砖房地块和健康大树的位置，后续工序只改变地块。 完成条件为“建房地点和保留大树确定”。完成后进入“先把入口让出来”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "建房地点和保留大树确定",
+      "next": "先把入口让出来"
+    },
+    {
+      "id": "fell",
+      "title": "先把入口让出来",
+      "startSeconds": 12.95,
+      "endSeconds": 19.65,
+      "visualReferences": [
+        "keyframes/fell-start.jpg",
+        "keyframes/fell-action.jpg",
+        "keyframes/fell-end.jpg"
+      ],
+      "referenceFrames": [
+        259,
+        332,
+        392
+      ],
+      "assets": [
+        "film.mjs",
+        "shared/excavator/work-films.mjs",
+        "shared/excavator/field.mjs",
+        "shared/drag-only/harvester/boom.webp",
+        "shared/excavator/art/bare-tree.webp"
+      ],
+      "voice": "voices/fell.wav",
+      "narration": "入口有棵枯树。伐木机扶住树干，从根部锯断，把整棵树放到路边。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《先把入口让出来》的可分层游戏素材。角色或机械为伐木机。开场构图为从已通的老路一侧接近枯树，健康大树不动。需要画清的动作是夹稳后根部出锯屑；树作刚体倾倒，树梢连着树干，落地后松开。末态保留树桩和整棵倒木留在原地。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《先把入口让出来》改为可触摸的绘本场景。载入状态“从已通的老路一侧接近枯树，健康大树不动”。孩子的操作是“点枯树根部”。先夹稳，再从树根切断，整棵树由伐木头扶放，落地再松夹。枝梢和树干同动；树桩留在原位。伐木机关只负责伐倒。 完成条件为“树桩和整棵倒木留在原地”。完成后进入“狐狸印记”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "树桩和整棵倒木留在原地",
+      "next": "狐狸印记"
+    },
+    {
+      "id": "mark",
+      "title": "狐狸印记",
+      "startSeconds": 19.65,
+      "endSeconds": 27.35,
+      "visualReferences": [
+        "keyframes/mark-start.jpg",
+        "keyframes/mark-action.jpg",
+        "keyframes/mark-end.jpg"
+      ],
+      "referenceFrames": [
+        393,
+        477,
+        546
+      ],
+      "assets": [
+        "panels/hearts-2.webp",
+        "masters/hearts.png",
+        "panels/mark-clean.webp",
+        "panels/mark-layer.webp"
+      ],
+      "voice": "voices/mark.wav",
+      "narration": "林业工人整理好长木料，在一根木头上盖了只小狐狸。车还得开进来，才能把它运走。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《狐狸印记》的可分层游戏素材。角色或机械为林业工人。开场构图为树已放倒，转到工人整理完枝杈后的长木料。需要画清的动作是印章落在端面，红狐狸留在木纹上。末态保留可辨认的长料等待装车。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《狐狸印记》改为可触摸的绘本场景。载入状态“树已放倒，转到工人整理完枝杈后的长木料”。孩子的操作是“点印章”。倒木先由工人分段。把印章按上其中一根的端面，抬起后红狐狸留在木纹上。保存这根木料的身份供阅读桌回收。 完成条件为“可辨认的长料等待装车”。完成后进入“给运木车开路”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "可辨认的长料等待装车",
+      "next": "给运木车开路"
+    },
+    {
+      "id": "dig",
+      "title": "给运木车开路",
+      "startSeconds": 27.35,
+      "endSeconds": 34.1,
+      "visualReferences": [
+        "keyframes/dig-start.jpg",
+        "keyframes/dig-action.jpg",
+        "keyframes/dig-end.jpg"
+      ],
+      "referenceFrames": [
+        547,
+        621,
+        681
+      ],
+      "assets": [
+        "film.mjs",
+        "shared/excavator/work-films.mjs",
+        "shared/excavator/field.mjs",
+        "shared/excavator/art/model.json"
+      ],
+      "voice": "voices/dig.wav",
+      "narration": "挖掘机先清树桩，再挖开挡路的土石。能用的土，留在浅沟旁。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《给运木车开路》的可分层游戏素材。角色或机械为挖掘机。开场构图为入口已伐，土坡与浅沟挡在同一条路上。需要画清的动作是斗齿入土、卷斗、提臂；保留一堆净土。末态保留余土待运，填沟土留场。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《给运木车开路》改为可触摸的绘本场景。载入状态“入口已伐，土坡与浅沟挡在同一条路上”。孩子的操作是“按亮铲斗”。以斗齿接触地面为界。先扎入，边收小臂边卷斗，满斗后再抬臂。每取一斗就减少相应土量。分出一堆填沟用土。 完成条件为“余土待运，填沟土留场”。完成后进入“多余的土有去处”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "余土待运，填沟土留场",
+      "next": "多余的土有去处"
+    },
+    {
+      "id": "haul",
+      "title": "多余的土有去处",
+      "startSeconds": 34.1,
+      "endSeconds": 40.0,
+      "visualReferences": [
+        "keyframes/haul-start.jpg",
+        "keyframes/haul-action.jpg",
+        "keyframes/haul-end.jpg"
+      ],
+      "referenceFrames": [
+        682,
+        746,
+        799
+      ],
+      "assets": [
+        "film.mjs",
+        "shared/excavator/work-films.mjs",
+        "shared/excavator/field.mjs",
+        "shared/excavator/art/model.json",
+        "shared/excavator/art/tipper.json"
+      ],
+      "voice": "voices/haul.wav",
+      "narration": "翻斗车接满三斗，开过乡间小路，到收土场才把车厢举起来。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《多余的土有去处》的可分层游戏素材。角色或机械为挖掘机、翻斗车。开场构图为上一斗在铲斗里，橙厢黄头大卡车倒入接货位。需要画清的动作是三斗累加，装满驶出，换乡间道路，进收土场停稳、举厢、卸土。末态保留多余土石离场。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《多余的土有去处》改为可触摸的绘本场景。载入状态“上一斗在铲斗里，橙厢黄头大卡车倒入接货位”。孩子的操作是“点车厢接土”。用参考帧中的重卡尺寸套底盘、驾驶室和车厢。铲斗越过侧板再打开，车内积土逐斗增加。装好后先驶上运输路，到收土场停稳才绕后铰点举厢，卸完降厢。 完成条件为“多余土石离场”。完成后进入“把浅沟填平”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "多余土石离场",
+      "next": "把浅沟填平"
+    },
+    {
+      "id": "grade",
+      "title": "把浅沟填平",
+      "startSeconds": 40.0,
+      "endSeconds": 46.85,
+      "visualReferences": [
+        "keyframes/grade-start.jpg",
+        "keyframes/grade-action.jpg",
+        "keyframes/grade-end.jpg"
+      ],
+      "referenceFrames": [
+        800,
+        875,
+        936
+      ],
+      "assets": [
+        "film.mjs",
+        "shared/excavator/work-films.mjs",
+        "shared/excavator/field.mjs",
+        "shared/excavator/art/wheel-base.webp",
+        "shared/excavator/art/wheel-blade.webp"
+      ],
+      "voice": "voices/grade.wav",
+      "narration": "轮式推土机放低宽铲，把留下的土推入浅沟。四个大轮胎跟着向前走。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《把浅沟填平》的可分层游戏素材。角色或机械为轮式推土机。开场构图为土堆在浅沟右侧，地面崎岖。需要画清的动作是四轮橡胶胎，铲贴地短推；土堆降低、浅沟逐渐被原土填平。末态保留土路已平但仍松软。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《把浅沟填平》改为可触摸的绘本场景。载入状态“土堆在浅沟右侧，地面崎岖”。孩子的操作是“点宽推土板”。铲、推杆与车架相接，车底使用四个橡胶轮胎。压下铲刃，贴地推进预留的土，铲前土堆缩小时浅沟同步填满，再抬铲后退。 完成条件为“土路已平但仍松软”。完成后进入“第一段能通车的路”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "土路已平但仍松软",
+      "next": "第一段能通车的路"
+    },
+    {
+      "id": "compact",
+      "title": "第一段能通车的路",
+      "startSeconds": 46.85,
+      "endSeconds": 53.7,
+      "visualReferences": [
+        "keyframes/compact-start.jpg",
+        "keyframes/compact-action.jpg",
+        "keyframes/compact-end.jpg"
+      ],
+      "referenceFrames": [
+        937,
+        1012,
+        1073
+      ],
+      "assets": [
+        "film.mjs",
+        "shared/excavator/work-films.mjs",
+        "shared/excavator/field.mjs",
+        "shared/drag-only/roller/drum.webp"
+      ],
+      "voice": "voices/compact.wav",
+      "narration": "压路机沿着填好的土路来回压实。瞧，长长的运木车终于开进来了。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《第一段能通车的路》的可分层游戏素材。角色或机械为压路机、运木车。开场构图为原土已填平，暂时没有正式沥青路。需要画清的动作是钢轮滚过，松土变紧实，运木车抵达。末态保留抓木车可以装车。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《第一段能通车的路》改为可触摸的绘本场景。载入状态“原土已填平，暂时没有正式沥青路”。孩子的操作是“点钢轮”。同一条刚填好的土便道，钢轮经过的路段才压实。完成整段后给重卡放行，把入口状态交给下一镜。 完成条件为“抓木车可以装车”。完成后进入“把长木料交给大卡车”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "抓木车可以装车",
+      "next": "把长木料交给大卡车"
+    },
+    {
+      "id": "carry",
+      "title": "把长木料交给大卡车",
+      "startSeconds": 53.7,
+      "endSeconds": 61.5,
+      "visualReferences": [
+        "keyframes/carry-start.jpg",
+        "keyframes/carry-action.jpg",
+        "keyframes/carry-end.jpg"
+      ],
+      "referenceFrames": [
+        1074,
+        1159,
+        1229
+      ],
+      "assets": [
+        "film.mjs",
+        "shared/excavator/work-films.mjs",
+        "shared/excavator/field.mjs",
+        "shared/excavator/art/log-handler.webp",
+        "shared/excavator/art/grapple-jaw.webp",
+        "shared/excavator/art/stake-rack.webp",
+        "shared/excavator/art/sawn-log.webp"
+      ],
+      "voice": "voices/carry.wav",
+      "narration": "抓木机合拢弯爪，抬起长木料，放稳才松开。运木车把狐狸木料送去木工坊。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《把长木料交给大卡车》的可分层游戏素材。角色或机械为抓木机、运木车。开场构图为蓝色高驾驶室抓木机停在土路，大卡车有长运输架。需要画清的动作是肩、肘、腕共轴；夹牢随爪移动，落位分离，固定后整车离开。末态保留木料去了加工厂，旧房前腾出作业面。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《把长木料交给大卡车》改为可触摸的绘本场景。载入状态“蓝色高驾驶室抓木机停在土路，大卡车有长运输架”。孩子的操作是“点木料，再点运输架”。橙色高座抓木机保持履带着地，肩销接大臂、肘销接小臂、腕端接旋转抓爪。夹牢后木料跟随抓爪，接触大卡车承木架再松开。木料留在车上，绑好才可驶离。 完成条件为“木料去了加工厂，旧房前腾出作业面”。完成后进入“先把院子清干净”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "木料去了加工厂，旧房前腾出作业面",
+      "next": "先把院子清干净"
+    },
+    {
+      "id": "drain",
+      "title": "先把院子清干净",
+      "startSeconds": 61.5,
+      "endSeconds": 70.35,
+      "visualReferences": [
+        "keyframes/drain-start.jpg",
+        "keyframes/drain-action.jpg",
+        "keyframes/drain-end.jpg"
+      ],
+      "referenceFrames": [
+        1230,
+        1327,
+        1406
+      ],
+      "assets": [
+        "panels/earth-0.webp",
+        "masters/earth.png",
+        "panels/drain-clean.webp",
+        "panels/drain-layer.webp"
+      ],
+      "voice": "voices/drain.wav",
+      "narration": "雨水井堵住了。吸污车吸出淤泥，积水退下去，垃圾清运车才进来把旧桶倒空。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《先把院子清干净》的可分层游戏素材。角色或机械为吸污车、垃圾清运车。开场构图为旧库房门旁有积水、井口、旧垃圾桶。需要画清的动作是先抽出污泥，水位退到格栅，再举桶清运。末态保留旧房周边可进车。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《先把院子清干净》改为可触摸的绘本场景。载入状态“旧库房门旁有积水、井口、旧垃圾桶”。孩子的操作是“点吸管和垃圾桶”。先将吸污软管对准井口，启动后降低水面；收管后再由清运车举桶、倒桶和复位。分开污泥和桶装垃圾。 完成条件为“旧房周边可进车”。完成后进入“旧砖房退场”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "旧房周边可进车",
+      "next": "旧砖房退场"
+    },
+    {
+      "id": "demo",
+      "title": "旧砖房退场",
+      "startSeconds": 70.35,
+      "endSeconds": 77.05,
+      "visualReferences": [
+        "keyframes/demo-start.jpg",
+        "keyframes/demo-action.jpg",
+        "keyframes/demo-end.jpg"
+      ],
+      "referenceFrames": [
+        1407,
+        1480,
+        1540
+      ],
+      "assets": [
+        "panels/earth-1.webp",
+        "masters/earth.png"
+      ],
+      "voice": "voices/demo.wav",
+      "narration": "雾炮车朝旧墙喷出细雾。拆楼机从上往下，咬下旧墙的一角。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《旧砖房退场》的可分层游戏素材。角色或机械为雾炮车、拆除挖掘机。开场构图为空置旧房，无儿童在工程区。需要画清的动作是雾滴先到墙面，破碎钳闭合，碎砖向下掉。末态保留碎砖落到地面。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《旧砖房退场》改为可触摸的绘本场景。载入状态“空置旧房，无儿童在工程区”。孩子的操作是“点雾炮，再点破碎钳”。先选择雾炮，让雾覆盖旧墙，再让拆除钳夹住墙段。接触处碎砖向下落到墙脚，保留右侧健康树和邻近地形。 完成条件为“碎砖落到地面”。完成后进入“熟悉的翻斗车回来了”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "碎砖落到地面",
+      "next": "熟悉的翻斗车回来了"
+    },
+    {
+      "id": "rubble",
+      "title": "熟悉的翻斗车回来了",
+      "startSeconds": 77.05,
+      "endSeconds": 84.85,
+      "visualReferences": [
+        "keyframes/rubble-start.jpg",
+        "keyframes/rubble-action.jpg",
+        "keyframes/rubble-end.jpg"
+      ],
+      "referenceFrames": [
+        1541,
+        1626,
+        1696
+      ],
+      "assets": [
+        "panels/earth-2.webp",
+        "masters/earth.png"
+      ],
+      "voice": "voices/rubble.wav",
+      "narration": "装载机把碎砖铲进翻斗车，运去分拣场。洒水车沿便道洒水，把扬尘压下去。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《熟悉的翻斗车回来了》的可分层游戏素材。角色或机械为装载机、翻斗车、洒水车。开场构图为旧房已拆；铲车与大卡车在同一地面。需要画清的动作是铲斗抬升卸入车厢，低位喷嘴湿润路面。末态保留旧房原址清空。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《熟悉的翻斗车回来了》改为可触摸的绘本场景。载入状态“旧房已拆；铲车与大卡车在同一地面”。孩子的操作是“点碎砖”。装载机把地上碎砖送入已停稳的同一辆翻斗车。记录运走的砖量，露出旧房地基；洒水车低位润湿运输路面。 完成条件为“旧房原址清空”。完成后进入“地下也要盖牢”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "旧房原址清空",
+      "next": "地下也要盖牢"
+    },
+    {
+      "id": "drill",
+      "title": "地下也要盖牢",
+      "startSeconds": 84.85,
+      "endSeconds": 92.95,
+      "visualReferences": [
+        "keyframes/drill-start.jpg",
+        "keyframes/drill-action.jpg",
+        "keyframes/drill-end.jpg"
+      ],
+      "referenceFrames": [
+        1697,
+        1786,
+        1858
+      ],
+      "assets": [
+        "panels/earth-3.webp",
+        "masters/earth.png",
+        "panels/drill-clean.webp",
+        "panels/drill-layer.webp"
+      ],
+      "voice": "voices/drill.wav",
+      "narration": "这块地的软土很深。旋挖钻机转着钻斗取土，小朋友从地下剖面里看见桩孔变深了。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《地下也要盖牢》的可分层游戏素材。角色或机械为旋挖钻机。开场构图为桩位已标，镜头切到地下剖面。需要画清的动作是钻斗旋转下行，提起时带土；孔口保持固定。末态保留桩孔就位。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《地下也要盖牢》改为可触摸的绘本场景。载入状态“桩位已标，镜头切到地下剖面”。孩子的操作是“点钻斗”。锁住钻孔中心，钻杆沿竖向导轨旋转下降。提钻带出土，孔口留在原处，为钢筋笼设同一个对位中心。 完成条件为“桩孔就位”。完成后进入“放进钢筋笼”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "桩孔就位",
+      "next": "放进钢筋笼"
+    },
+    {
+      "id": "cage",
+      "title": "放进钢筋笼",
+      "startSeconds": 92.95,
+      "endSeconds": 98.1,
+      "visualReferences": [
+        "keyframes/cage-start.jpg",
+        "keyframes/cage-action.jpg",
+        "keyframes/cage-end.jpg"
+      ],
+      "referenceFrames": [
+        1859,
+        1915,
+        1961
+      ],
+      "assets": [
+        "panels/earth-4.webp",
+        "masters/earth.png",
+        "panels/cage-clean.webp",
+        "panels/cage-layer.webp"
+      ],
+      "voice": "voices/cage.wav",
+      "narration": "汽车起重机撑稳支腿，把长钢筋笼慢慢放进孔里。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《放进钢筋笼》的可分层游戏素材。角色或机械为汽车起重机。开场构图为长钢筋笼在桩孔正上方。需要画清的动作是吊索垂直，钢筋笼竖向下降入孔。末态保留钢筋笼就位。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《放进钢筋笼》改为可触摸的绘本场景。载入状态“长钢筋笼在桩孔正上方”。孩子的操作是“点吊钩”。让钢筋笼顶端吊在钩下。先移到上一镜中心，再垂直放笼，落稳才松钩；平移和放绳分别控制。 完成条件为“钢筋笼就位”。完成后进入“故事屋站稳了”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "钢筋笼就位",
+      "next": "故事屋站稳了"
+    },
+    {
+      "id": "concrete",
+      "title": "故事屋站稳了",
+      "startSeconds": 98.1,
+      "endSeconds": 106.05,
+      "visualReferences": [
+        "keyframes/concrete-start.jpg",
+        "keyframes/concrete-action.jpg",
+        "keyframes/concrete-end.jpg"
+      ],
+      "referenceFrames": [
+        1962,
+        2049,
+        2120
+      ],
+      "assets": [
+        "panels/earth-5.webp",
+        "masters/earth.png"
+      ],
+      "voice": "voices/concrete.wav",
+      "narration": "搅拌车送来混凝土，顺着导管灌进桩孔。等桩和基础做好，小楼就有了结实的脚。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《故事屋站稳了》的可分层游戏素材。角色或机械为混凝土搅拌车。开场构图为钢筋笼已放入孔，导管已就位。需要画清的动作是料流入导管，混凝土包住钢筋笼；镜头转到养护后的基础。末态保留基础可承载上部结构。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《故事屋站稳了》改为可触摸的绘本场景。载入状态“钢筋笼已放入孔，导管已就位”。孩子的操作是“点料槽”。搅拌车停稳后，出料槽对准导管。供料时孔内填充状态逐步上升，完成并以时间过渡表现基础养护。 完成条件为“基础可承载上部结构”。完成后进入“把墙板运上楼”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "基础可承载上部结构",
+      "next": "把墙板运上楼"
+    },
+    {
+      "id": "panels",
+      "title": "把墙板运上楼",
+      "startSeconds": 106.05,
+      "endSeconds": 113.55,
+      "visualReferences": [
+        "keyframes/panels-start.jpg",
+        "keyframes/panels-action.jpg",
+        "keyframes/panels-end.jpg"
+      ],
+      "referenceFrames": [
+        2121,
+        2203,
+        2270
+      ],
+      "assets": [
+        "panels/house-0.webp",
+        "masters/house.png",
+        "panels/panels-clean.webp",
+        "panels/panels-layer.webp"
+      ],
+      "voice": "voices/panels.wav",
+      "narration": "平板车把预制墙板送到楼下。塔吊提起墙板，转到墙的位置，轻轻放稳。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《把墙板运上楼》的可分层游戏素材。角色或机械为平板运输车、塔吊。开场构图为工地已有基础和结构，预制板旁有运输架。需要画清的动作是先竖直起吊，平移对位，再下降；吊钩始终位于板上方。末态保留楼层围合成形。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《把墙板运上楼》改为可触摸的绘本场景。载入状态“工地已有基础和结构，预制板旁有运输架”。孩子的操作是“点墙板和墙位”。平板车在楼外卸料点停车；塔吊收绳让墙板离开平板，再回转、落钩对准安装位。只在墙板就位固定后释放吊具。 完成条件为“楼层围合成形”。完成后进入“混凝土也能上楼”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "楼层围合成形",
+      "next": "混凝土也能上楼"
+    },
+    {
+      "id": "pump",
+      "title": "混凝土也能上楼",
+      "startSeconds": 113.55,
+      "endSeconds": 120.15,
+      "visualReferences": [
+        "keyframes/pump-start.jpg",
+        "keyframes/pump-action.jpg",
+        "keyframes/pump-end.jpg"
+      ],
+      "referenceFrames": [
+        2271,
+        2343,
+        2402
+      ],
+      "assets": [
+        "panels/house-1.webp",
+        "masters/house.png"
+      ],
+      "voice": "voices/pump.wav",
+      "narration": "搅拌车又来了！这回泵车展开折叠长臂，把混凝土送上楼板。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《混凝土也能上楼》的可分层游戏素材。角色或机械为混凝土搅拌车、混凝土泵车。开场构图为楼板模板完成，搅拌车接泵车料斗。需要画清的动作是料斗供料，软管朝下，末端出料；下一层养护后再施工。末态保留三层结构成形。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《混凝土也能上楼》改为可触摸的绘本场景。载入状态“楼板模板完成，搅拌车接泵车料斗”。孩子的操作是“点泵臂末端”。搅拌筒向泵车料斗供料。泵臂每段绕相邻关节展开，软管末端朝下，拖动末端控制浇筑区，料流只从软管口出。 完成条件为“三层结构成形”。完成后进入“窗框住了树冠”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "三层结构成形",
+      "next": "窗框住了树冠"
+    },
+    {
+      "id": "window",
+      "title": "窗框住了树冠",
+      "startSeconds": 120.15,
+      "endSeconds": 128.65,
+      "visualReferences": [
+        "keyframes/window-start.jpg",
+        "keyframes/window-action.jpg",
+        "keyframes/window-end.jpg"
+      ],
+      "referenceFrames": [
+        2403,
+        2496,
+        2572
+      ],
+      "assets": [
+        "panels/house-2.webp",
+        "masters/house.png"
+      ],
+      "voice": "voices/window.wav",
+      "narration": "玻璃吸盘车牢牢吸住大玻璃，把它扶正送进二楼窗框。孩子们画的那棵树，真的在窗外。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《窗框住了树冠》的可分层游戏素材。角色或机械为玻璃吸盘搬运车。开场构图为二楼留有窗洞，大树在窗外。需要画清的动作是吸盘贴合，玻璃扶正、入框，固定后释放。末态保留阅读窗安装完成。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《窗框住了树冠》改为可触摸的绘本场景。载入状态“二楼留有窗洞，大树在窗外”。孩子的操作是“点吸盘”。吸盘与窗玻璃同步移动，玻璃固定进二楼窗框才释放吸盘。完工时透过玻璃仍能望见保留的大树。 完成条件为“阅读窗安装完成”。完成后进入“狐狸木头回来了”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "阅读窗安装完成",
+      "next": "狐狸木头回来了"
+    },
+    {
+      "id": "desk",
+      "title": "狐狸木头回来了",
+      "startSeconds": 128.65,
+      "endSeconds": 137.4,
+      "visualReferences": [
+        "keyframes/desk-start.jpg",
+        "keyframes/desk-action.jpg",
+        "keyframes/desk-end.jpg"
+      ],
+      "referenceFrames": [
+        2573,
+        2669,
+        2747
+      ],
+      "assets": [
+        "panels/house-3.webp",
+        "masters/house.png",
+        "panels/desk-clean.webp",
+        "panels/desk-layer.webp",
+        "panels/road-4.webp"
+      ],
+      "voice": "voices/desk.wav",
+      "narration": "木工坊送来一张桌子。按下二楼，施工升降机往上爬。看！桌沿下面还有那只红狐狸。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《狐狸木头回来了》的可分层游戏素材。角色或机械为施工升降机。开场构图为地面入口有阅读桌，窗已装好。需要画清的动作是关笼门，吊笼沿导轨升至二楼，停稳开门；切桌角印记。末态保留阅读桌放在大窗前。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《狐狸木头回来了》改为可触摸的绘本场景。载入状态“地面入口有阅读桌，窗已装好”。孩子的操作是“点楼层二”。装入做好的桌板再关笼门。吊笼约束在外墙导轨上；抵达二楼且停稳才开门。窗前成桌的边缘保留与木料相同的狐狸印记。 完成条件为“阅读桌放在大窗前”。完成后进入“把名字挂上去”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "阅读桌放在大窗前",
+      "next": "把名字挂上去"
+    },
+    {
+      "id": "sign",
+      "title": "把名字挂上去",
+      "startSeconds": 137.4,
+      "endSeconds": 143.8,
+      "visualReferences": [
+        "keyframes/sign-start.jpg",
+        "keyframes/sign-action.jpg",
+        "keyframes/sign-end.jpg"
+      ],
+      "referenceFrames": [
+        2748,
+        2818,
+        2875
+      ],
+      "assets": [
+        "panels/house-4.webp",
+        "masters/house.png",
+        "panels/sign-clean.webp",
+        "panels/sign-layer.webp"
+      ],
+      "voice": "voices/sign.wav",
+      "narration": "曲臂作业车绕过门廊，把工人送到屋檐下。故事工坊，有名字啦！",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《把名字挂上去》的可分层游戏素材。角色或机械为曲臂式高空作业车。开场构图为外立面完工，门廊挡住垂直通路。需要画清的动作是曲臂折起绕过门廊，平台保持水平，固定招牌。末态保留门口还缺正式道路。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《把名字挂上去》改为可触摸的绘本场景。载入状态“外立面完工，门廊挡住垂直通路”。孩子的操作是“点门廊上的招牌位”。车停在门廊外，两段曲臂绕门廊伸展。工作平台随臂端移动且保持水平，招牌避开窗框，固定后随楼体保留。 完成条件为“门口还缺正式道路”。完成后进入“把便道变成开馆的路”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "门口还缺正式道路",
+      "next": "把便道变成开馆的路"
+    },
+    {
+      "id": "sweep",
+      "title": "把便道变成开馆的路",
+      "startSeconds": 143.8,
+      "endSeconds": 152.75,
+      "visualReferences": [
+        "keyframes/sweep-start.jpg",
+        "keyframes/sweep-action.jpg",
+        "keyframes/sweep-end.jpg"
+      ],
+      "referenceFrames": [
+        2876,
+        2974,
+        3054
+      ],
+      "assets": [
+        "panels/road-0.webp",
+        "masters/road.png",
+        "panels/sweep-clean.webp",
+        "panels/sweep-layer.webp"
+      ],
+      "voice": "voices/sweep.wav",
+      "narration": "基础路面准备好了。清扫车转动圆刷，扫走浮尘。沥青洒布车跟上，喷出均匀的一层。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《把便道变成开馆的路》的可分层游戏素材。角色或机械为道路清扫车、沥青洒布车。开场构图为正式道路基层已经整备。需要画清的动作是先扫净，喷嘴在同一轨迹均匀洒布。末态保留基层准备摊铺。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《把便道变成开馆的路》改为可触摸的绘本场景。载入状态“正式道路基层已经整备”。孩子的操作是“点圆刷，再点后喷杆”。两步共用同一条路。清扫车圆刷经过后移走浮土；在已扫区域让洒布车后喷杆留下均匀结合层。喷杆宽度限定轨迹。 完成条件为“基层准备摊铺”。完成后进入“铺路伙伴再见面”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "基层准备摊铺",
+      "next": "铺路伙伴再见面"
+    },
+    {
+      "id": "pave",
+      "title": "铺路伙伴再见面",
+      "startSeconds": 152.75,
+      "endSeconds": 161.55,
+      "visualReferences": [
+        "keyframes/pave-start.jpg",
+        "keyframes/pave-action.jpg",
+        "keyframes/pave-end.jpg"
+      ],
+      "referenceFrames": [
+        3055,
+        3151,
+        3230
+      ],
+      "assets": [
+        "panels/road-1.webp",
+        "masters/road.png",
+        "panels/pave-clean.webp",
+        "panels/pave-layer.webp"
+      ],
+      "voice": "voices/pave.wav",
+      "narration": "翻斗车送来热沥青混合料，摊铺机把它铺匀。上次修便道的压路机又回来，把新路面压实。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《铺路伙伴再见面》的可分层游戏素材。角色或机械为翻斗车、沥青摊铺机、压路机。开场构图为洒布已完成，翻斗车停在受料斗前。需要画清的动作是混合料进斗，摊铺层延长；钢轮随后碾压。末态保留正式路面成形。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《铺路伙伴再见面》改为可触摸的绘本场景。载入状态“洒布已完成，翻斗车停在受料斗前”。孩子的操作是“点受料斗，再点钢轮”。翻斗车向摊铺机料斗供料。摊铺机前进，机后才延长黑色铺面；压路机随后沿新铺段碾压。留出车辆回转和离场空间。 完成条件为“正式路面成形”。完成后进入“走哪儿过街”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "正式路面成形",
+      "next": "走哪儿过街"
+    },
+    {
+      "id": "stripe",
+      "title": "走哪儿过街",
+      "startSeconds": 161.55,
+      "endSeconds": 168.9,
+      "visualReferences": [
+        "keyframes/stripe-start.jpg",
+        "keyframes/stripe-action.jpg",
+        "keyframes/stripe-end.jpg"
+      ],
+      "referenceFrames": [
+        3231,
+        3311,
+        3377
+      ],
+      "assets": [
+        "panels/road-2.webp",
+        "masters/road.png"
+      ],
+      "voice": "voices/stripe.wav",
+      "narration": "等路面可以划线了，划线车在门口画出白色斑马线。这是以后大家走进工坊的路。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《走哪儿过街》的可分层游戏素材。角色或机械为道路划线车。开场构图为黑色路面完工，无白线。需要画清的动作是喷枪经过后才出现白条。末态保留入口可辨认。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《走哪儿过街》改为可触摸的绘本场景。载入状态“黑色路面完工，无白线”。孩子的操作是“点过街位置”。在已完成的路面标记起点，控制划线车匀速走，喷枪开闭形成间隔。白线留在地面，雪天露出同一处标线。 完成条件为“入口可辨认”。完成后进入“第一托书到了”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "入口可辨认",
+      "next": "第一托书到了"
+    },
+    {
+      "id": "books",
+      "title": "第一托书到了",
+      "startSeconds": 168.9,
+      "endSeconds": 175.2,
+      "visualReferences": [
+        "keyframes/books-start.jpg",
+        "keyframes/books-action.jpg",
+        "keyframes/books-end.jpg"
+      ],
+      "referenceFrames": [
+        3378,
+        3447,
+        3503
+      ],
+      "assets": [
+        "panels/house-5.webp",
+        "masters/house.png",
+        "panels/books-clean.webp",
+        "panels/books-layer.webp"
+      ],
+      "voice": "voices/books.wav",
+      "narration": "叉车把两根叉齿伸进托盘，抬起成箱的绘本，慢慢送到一楼门口。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《第一托书到了》的可分层游戏素材。角色或机械为叉车。开场构图为入口畅通，卸货区有成托纸箱。需要画清的动作是对准叉孔、微抬托盘、运到门前放稳。末态保留书已入馆。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《第一托书到了》改为可触摸的绘本场景。载入状态“入口畅通，卸货区有成托纸箱”。孩子的操作是“点托盘叉孔”。货叉对准托盘叉孔，插入后微抬。托盘随货叉平移，到门口降下接地后再退叉，箱子保持叠放。 完成条件为“书已入馆”。完成后进入“门口的第一盏灯”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "书已入馆",
+      "next": "门口的第一盏灯"
+    },
+    {
+      "id": "lamp",
+      "title": "门口的第一盏灯",
+      "startSeconds": 175.2,
+      "endSeconds": 183.45,
+      "visualReferences": [
+        "keyframes/lamp-start.jpg",
+        "keyframes/lamp-action.jpg",
+        "keyframes/lamp-end.jpg"
+      ],
+      "referenceFrames": [
+        3504,
+        3594,
+        3668
+      ],
+      "assets": [
+        "panels/road-3.webp",
+        "masters/road.png"
+      ],
+      "voice": "voices/lamp.wav",
+      "narration": "天快黑了。路灯检修车伸出直臂，工人装好灯头。灯一亮，光正好落在斑马线上。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《门口的第一盏灯》的可分层游戏素材。角色或机械为路灯检修车。开场构图为门前灯杆尚未点亮，过街白线已画好。需要画清的动作是工作斗收回后暖光渐亮，光斑落在白线上。末态保留故事屋开馆。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《门口的第一盏灯》改为可触摸的绘本场景。载入状态“门前灯杆尚未点亮，过街白线已画好”。孩子的操作是“点灯头”。工作斗停在灯头旁，点灯具完成安装。收回工作斗，傍晚暖光照到入口白线上。将这盏灯的位置和光色传给雪景。 完成条件为“故事屋开馆”。完成后进入“第一场雪”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "故事屋开馆",
+      "next": "第一场雪"
+    },
+    {
+      "id": "snow",
+      "title": "第一场雪",
+      "startSeconds": 183.45,
+      "endSeconds": 192.8,
+      "visualReferences": [
+        "keyframes/snow-start.jpg",
+        "keyframes/snow-action.jpg",
+        "keyframes/snow-end.jpg"
+      ],
+      "referenceFrames": [
+        3669,
+        3771,
+        3855
+      ],
+      "assets": [
+        "panels/hearts-3.webp",
+        "masters/hearts.png",
+        "panels/snow-clean.webp",
+        "panels/snow-layer.webp"
+      ],
+      "voice": "voices/snow.wav",
+      "narration": "一个星期五，雪盖住了白线。铲雪车推开雪，黄色图书车循着熟悉的灯光，又回来了。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《第一场雪》的可分层游戏素材。角色或机械为铲雪车、移动图书车。开场构图为同一盏灯和过街线，积雪覆盖入口。需要画清的动作是斜铲向路肩推雪，露出白线，图书车驶进院子。末态保留阿梨带着未读完的书上楼。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《第一场雪》改为可触摸的绘本场景。载入状态“同一盏灯和过街线，积雪覆盖入口”。孩子的操作是“点斜铲”。斜铲贴地向路肩堆雪，铲后露出原有白线。通行后才让开场的黄色图书车驶入，保持路灯和门口位置。 完成条件为“阿梨带着未读完的书上楼”。完成后进入“门后面有什么”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "阿梨带着未读完的书上楼",
+      "next": "门后面有什么"
+    },
+    {
+      "id": "end",
+      "title": "门后面有什么",
+      "startSeconds": 192.8,
+      "endSeconds": 203.55,
+      "visualReferences": [
+        "keyframes/end-start.jpg",
+        "keyframes/end-action.jpg",
+        "keyframes/end-end.jpg"
+      ],
+      "referenceFrames": [
+        3856,
+        3974,
+        4070
+      ],
+      "assets": [
+        "panels/hearts-4.webp",
+        "masters/hearts.png",
+        "panels/hearts-5.webp"
+      ],
+      "voice": "voices/end.wav",
+      "narration": "阿梨翻过最后一页：门后，是一屋子等小狐狸来听故事的朋友。窗外还在下雪，这一次，谁也不用赶着收书了。",
+      "imagePrompt": "以所附三张成片帧为视觉基准，绘制《门后面有什么》的可分层游戏素材。角色或机械为阿梨和孩子们。开场构图为二楼阅读窗旁，狐狸印记的桌子，原来的绘本。需要画清的动作是书页翻开，门内伙伴露出；窗外雪落，门口暖灯亮着。末态保留开场的问题得到回答。沿用本镜参考帧的暖色厚涂儿童绘本风、纸纹和有体积的金属机械。匹配车头、车轮、工作属具与邻车在同一地平线上的相对尺寸。保持镜位、车辆朝向和已有色板。单独导出需要运动的零件与无字背景。",
+      "gamePrompt": "将《门后面有什么》改为可触摸的绘本场景。载入状态“二楼阅读窗旁，狐狸印记的桌子，原来的绘本”。孩子的操作是“点最后一页”。先给窗边阿梨和孩子们，再让孩子点书页。翻到狐狸推门的一页，门后出现伙伴。留下阅读桌的印记、窗外雪和暖灯。 完成条件为“开场的问题得到回答”。完成后进入“全片结束，可重播或回到游戏”。操作可以重试，退出时停止本镜的声音和动作。复用所附普通话音轨。",
+      "done": "开场的问题得到回答",
+      "next": "全片结束，可重播或回到游戏"
+    }
+  ]
+}

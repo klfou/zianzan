@@ -1,0 +1,41 @@
+{
+  "id": "roller",
+  "name": "单钢轮压路机",
+  "width": 1692,
+  "height": 823,
+  "layers": [
+    "rollerDrive",
+    "rollerCab",
+    "rollerDrum"
+  ],
+  "parts": [
+    {
+      "id": "rollerDrive",
+      "name": "后动力底盘",
+      "file": "puzzle/roller/rollerDrive.webp",
+      "x": 675,
+      "y": 129,
+      "w": 1017,
+      "h": 689
+    },
+    {
+      "id": "rollerCab",
+      "name": "驾驶室",
+      "file": "puzzle/roller/rollerCab.webp",
+      "x": 695,
+      "y": 0,
+      "w": 551,
+      "h": 478
+    },
+    {
+      "id": "rollerDrum",
+      "name": "前钢轮和支架",
+      "file": "puzzle/roller/rollerDrum.webp",
+      "x": 0,
+      "y": 293,
+      "w": 724,
+      "h": 530
+    }
+  ],
+  "intro": "rollerIntro"
+}

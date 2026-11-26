@@ -1,0 +1,92 @@
+{
+  "name": "矿用自卸车",
+  "intro": "quarryHaulIntro",
+  "layers": [
+    "quarryHaulBase",
+    "quarryHaulCab",
+    "quarryHaulRam",
+    "quarryHaulBed"
+  ],
+  "parts": [
+    {
+      "id": "quarryHaulBase",
+      "name": "轮式底盘",
+      "cell": [
+        13,
+        100,
+        1055,
+        492
+      ],
+      "position": [
+        0,
+        462
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "quarryHaulCab",
+      "name": "驾驶平台",
+      "cell": [
+        1080,
+        39,
+        1516,
+        500
+      ],
+      "position": [
+        0,
+        298
+      ],
+      "scale": 0.79,
+      "scaleX": 0.79
+    },
+    {
+      "id": "quarryHaulRam",
+      "name": "举升油缸",
+      "cell": [
+        24,
+        537,
+        450,
+        995
+      ],
+      "position": [
+        538,
+        421
+      ],
+      "scale": 0.265,
+      "scaleX": 0.265,
+      "rotation": {
+        "peg": [
+          384,
+          419
+        ],
+        "angle": 18,
+        "scale": 0.265
+      }
+    },
+    {
+      "id": "quarryHaulBed",
+      "name": "矿石车厢",
+      "cell": [
+        254,
+        521,
+        1516,
+        956
+      ],
+      "position": [
+        125,
+        0
+      ],
+      "scale": 0.91,
+      "scaleX": 0.91,
+      "rotation": {
+        "peg": [
+          1053,
+          388
+        ],
+        "angle": 10,
+        "scale": 0.91
+      }
+    }
+  ]
+}

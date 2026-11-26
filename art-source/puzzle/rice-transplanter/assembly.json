@@ -1,0 +1,76 @@
+{
+  "name": "乘坐式插秧机",
+  "intro": "paddySeatIntro",
+  "layers": [
+    "paddySeatClaws",
+    "paddySeatRack",
+    "paddySeatStation",
+    "paddySeatBase"
+  ],
+  "parts": [
+    {
+      "id": "paddySeatBase",
+      "name": "水田底盘",
+      "cell": [
+        23,
+        94,
+        922,
+        529
+      ],
+      "position": [
+        0,
+        170
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "paddySeatStation",
+      "name": "驾驶台",
+      "cell": [
+        963,
+        86,
+        1482,
+        467
+      ],
+      "position": [
+        252,
+        117
+      ],
+      "scale": 0.59,
+      "scaleX": 0.59
+    },
+    {
+      "id": "paddySeatRack",
+      "name": "秧苗架",
+      "cell": [
+        19,
+        582,
+        747,
+        972
+      ],
+      "position": [
+        975,
+        0
+      ],
+      "scale": 0.76,
+      "scaleX": 0.76
+    },
+    {
+      "id": "paddySeatClaws",
+      "name": "插秧机构",
+      "cell": [
+        765,
+        564,
+        1522,
+        972
+      ],
+      "position": [
+        854,
+        167
+      ],
+      "scale": 0.87,
+      "scaleX": 0.87
+    }
+  ]
+}

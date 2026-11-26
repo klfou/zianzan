@@ -1,0 +1,30 @@
+{
+  "width": 704,
+  "height": 386,
+  "parts": [
+    {
+      "id": "truckframe",
+      "x": 59,
+      "y": 195,
+      "w": 620,
+      "h": 191,
+      "file": "truckframe.webp"
+    },
+    {
+      "id": "truckcab",
+      "x": 2,
+      "y": 27,
+      "w": 222,
+      "h": 248,
+      "file": "truckcab.webp"
+    },
+    {
+      "id": "truckbed",
+      "x": 224,
+      "y": 51,
+      "w": 457,
+      "h": 182,
+      "file": "truckbed.webp"
+    }
+  ]
+}

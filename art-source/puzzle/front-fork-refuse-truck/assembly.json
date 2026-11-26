@@ -1,0 +1,52 @@
+{
+  "name": "前装叉举式垃圾车",
+  "intro": "frontForkIntro",
+  "layers": [
+    "frontForkCarrier",
+    "frontForkBox"
+  ],
+  "parts": [
+    {
+      "id": "frontForkCarrier",
+      "name": "叉举车身",
+      "cell": [
+        13,
+        7,
+        1739,
+        570
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "frontForkBox",
+      "name": "前装垃圾箱",
+      "cell": [
+        558,
+        597,
+        1164,
+        890
+      ],
+      "position": [
+        1470,
+        388
+      ],
+      "scale": 0.67,
+      "scaleX": 0.67
+    }
+  ],
+  "foreground": {
+    "part": "frontForkCarrier",
+    "withPart": "frontForkBox",
+    "insetPercent": [
+      87.56660746003553,
+      8.806488991888761,
+      6.571936056838368,
+      84.58864426419467
+    ]
+  }
+}

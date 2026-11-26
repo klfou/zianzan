@@ -1,0 +1,21 @@
+{
+  "name": "洒水车",
+  "intro": "sprinklerWashIntro",
+  "sheet": "wash-modules.png",
+  "parts": [
+    {"id":"sprinklerCab","name":"行驶底盘","cell":[0,0,778,520],"extendRail":[353,451,173],"position":[26,99],"scale":1},
+    {"id":"sprinklerTank","name":"储水罐","cell":[778,0,1536,520],"position":[296,61],"scale":0.9},
+    {"id":"sprinklerJets","name":"前冲和侧喷装置","cell":[0,520,778,1024],"position":[21,342],"scale":0.24},
+    {"id":"sprinklerDeck","name":"洒水平台","file":"rear-distributor.png","position":[897,256],"scale":0.172,
+     "hardwareOutline":[[230,0],[1420,0],[1420,414],[1353,443],[1353,469],[1335,472],[1305,474],[1221,474],[1188,472],[1174,466],[1168,446],[1156,442],[1050,468],[924,482],[906,538],[902,566],[895,571],[871,575],[840,577],[753,577],[706,575],[678,572],[668,565],[652,550],[630,493],[235,490]]}
+  ],
+  "layers":["sprinklerTank","sprinklerCab","sprinklerDeck","sprinklerJets"],
+  "spray":{
+    "file":"water-fan.png","tip":[0.987,0.5],
+    "jets":[
+      {"nozzle":[26,373],"end":[-71,359],"breadth":42},
+      {"nozzle":[82,395],"end":[-67,451],"breadth":65},
+      {"nozzle":[174,405],"end":[203,484],"breadth":69}
+    ]
+  }
+}

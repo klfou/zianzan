@@ -1,0 +1,41 @@
+{
+  "name": "餐厨垃圾车",
+  "intro": "kitchenRunIntro",
+  "layers": [
+    "kitchenRunFrame",
+    "kitchenRunCab",
+    "kitchenRunTank"
+  ],
+  "id": "kitchen-waste-collector",
+  "width": 1463,
+  "height": 739,
+  "parts": [
+    {
+      "id": "kitchenRunFrame",
+      "name": "行驶底盘",
+      "file": "puzzle/kitchen-waste-collector/kitchenRunFrame.webp",
+      "x": 85,
+      "y": 403,
+      "w": 1378,
+      "h": 336
+    },
+    {
+      "id": "kitchenRunCab",
+      "name": "车头",
+      "file": "puzzle/kitchen-waste-collector/kitchenRunCab.webp",
+      "x": 0,
+      "y": 135,
+      "w": 458,
+      "h": 506
+    },
+    {
+      "id": "kitchenRunTank",
+      "name": "餐厨垃圾罐",
+      "file": "puzzle/kitchen-waste-collector/kitchenRunTank.webp",
+      "x": 487,
+      "y": 0,
+      "w": 966,
+      "h": 499
+    }
+  ]
+}

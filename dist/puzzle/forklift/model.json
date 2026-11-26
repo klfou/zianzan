@@ -1,0 +1,51 @@
+{
+  "id": "forklift",
+  "name": "叉车",
+  "width": 1122,
+  "height": 604,
+  "layers": [
+    "forkliftStation",
+    "forkliftMast",
+    "forkliftBody",
+    "forkliftForks"
+  ],
+  "parts": [
+    {
+      "id": "forkliftBody",
+      "name": "车身底盘",
+      "file": "puzzle/forklift/forkliftBody.webp",
+      "x": 0,
+      "y": 287,
+      "w": 665,
+      "h": 317
+    },
+    {
+      "id": "forkliftStation",
+      "name": "驾驶台",
+      "file": "puzzle/forklift/forkliftStation.webp",
+      "x": 225,
+      "y": 66,
+      "w": 426,
+      "h": 388
+    },
+    {
+      "id": "forkliftMast",
+      "name": "升降门架",
+      "file": "puzzle/forklift/forkliftMast.webp",
+      "x": 607,
+      "y": 0,
+      "w": 143,
+      "h": 565
+    },
+    {
+      "id": "forkliftForks",
+      "name": "货叉",
+      "file": "puzzle/forklift/forkliftForks.webp",
+      "x": 712,
+      "y": 309,
+      "w": 410,
+      "h": 245
+    }
+  ],
+  "intro": "forkliftIntro"
+}

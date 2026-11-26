@@ -1,0 +1,51 @@
+{
+  "id": "log-grapple",
+  "name": "抓木机",
+  "width": 1342,
+  "height": 717,
+  "parts": [
+    {
+      "id": "logGrabBase",
+      "name": "轮式底盘",
+      "file": "puzzle/log-grapple/logGrabBase.webp",
+      "x": 0,
+      "y": 421,
+      "w": 735,
+      "h": 296
+    },
+    {
+      "id": "logGrabCab",
+      "name": "回转平台",
+      "file": "puzzle/log-grapple/logGrabCab.webp",
+      "x": 123,
+      "y": 78,
+      "w": 510,
+      "h": 354
+    },
+    {
+      "id": "logGrabArm",
+      "name": "抓臂",
+      "file": "puzzle/log-grapple/logGrabArm.webp",
+      "x": 547,
+      "y": 0,
+      "w": 696,
+      "h": 354
+    },
+    {
+      "id": "logGrabClaw",
+      "name": "抓木爪",
+      "file": "puzzle/log-grapple/logGrabClaw.webp",
+      "x": 1087,
+      "y": 208,
+      "w": 255,
+      "h": 274
+    }
+  ],
+  "layers": [
+    "logGrabBase",
+    "logGrabClaw",
+    "logGrabArm",
+    "logGrabCab"
+  ],
+  "intro": "logGrabIntro"
+}

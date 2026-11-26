@@ -1,0 +1,41 @@
+{
+  "name": "双头凿岩台车",
+  "intro": "twinJumboIntro",
+  "layers": [
+    "twinJumboCarrier",
+    "twinJumboLeft",
+    "twinJumboRight"
+  ],
+  "id": "twin-drill-jumbo",
+  "width": 1757,
+  "height": 590,
+  "parts": [
+    {
+      "id": "twinJumboCarrier",
+      "name": "车身",
+      "file": "puzzle/twin-drill-jumbo/twinJumboCarrier.webp",
+      "x": 0,
+      "y": 143,
+      "w": 897,
+      "h": 447
+    },
+    {
+      "id": "twinJumboLeft",
+      "name": "左钻臂",
+      "file": "puzzle/twin-drill-jumbo/twinJumboLeft.webp",
+      "x": 842,
+      "y": 0,
+      "w": 690,
+      "h": 392
+    },
+    {
+      "id": "twinJumboRight",
+      "name": "右钻臂",
+      "file": "puzzle/twin-drill-jumbo/twinJumboRight.webp",
+      "x": 772,
+      "y": 373,
+      "w": 985,
+      "h": 146
+    }
+  ]
+}

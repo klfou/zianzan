@@ -1,0 +1,51 @@
+{
+  "id": "sewer-vacuum-truck",
+  "name": "吸污车",
+  "width": 1003,
+  "height": 460,
+  "parts": [
+    {
+      "id": "sewerVacBase",
+      "name": "行驶底盘",
+      "file": "puzzle/sewer-vacuum-truck/sewerVacBase.webp",
+      "x": 0,
+      "y": 0,
+      "w": 775,
+      "h": 460
+    },
+    {
+      "id": "sewerVacTank",
+      "name": "密封罐",
+      "file": "puzzle/sewer-vacuum-truck/sewerVacTank.webp",
+      "x": 379,
+      "y": 30,
+      "w": 446,
+      "h": 269
+    },
+    {
+      "id": "sewerVacPump",
+      "name": "真空泵",
+      "file": "puzzle/sewer-vacuum-truck/sewerVacPump.webp",
+      "x": 273,
+      "y": 220,
+      "w": 121,
+      "h": 78
+    },
+    {
+      "id": "sewerVacHose",
+      "name": "吸污管",
+      "file": "puzzle/sewer-vacuum-truck/sewerVacHose.webp",
+      "x": 796,
+      "y": 152,
+      "w": 207,
+      "h": 289
+    }
+  ],
+  "layers": [
+    "sewerVacHose",
+    "sewerVacPump",
+    "sewerVacTank",
+    "sewerVacBase"
+  ],
+  "intro": "sewerVacIntro"
+}

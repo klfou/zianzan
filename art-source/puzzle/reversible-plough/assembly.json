@@ -1,0 +1,42 @@
+{
+  "name": "拖拉机带翻转犁",
+  "intro": "revPloughIntro",
+  "layers": [
+    "revPloughTool",
+    "revPloughTractor"
+  ],
+  "parts": [
+    {
+      "id": "revPloughTractor",
+      "name": "拖拉机",
+      "cell": [
+        3,
+        3,
+        1139,
+        716
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "revPloughTool",
+      "name": "翻转犁",
+      "cell": [
+        1200,
+        170,
+        2168,
+        689
+      ],
+      "position": [
+        1086,
+        172
+      ],
+      "scale": 1,
+      "scaleX": 1
+    }
+  ]
+}

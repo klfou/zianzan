@@ -1,0 +1,51 @@
+{
+  "name": "集装箱正面吊",
+  "intro": "portLiftIntro",
+  "layers": [
+    "portLiftCarrier",
+    "portLiftBox",
+    "portLiftSpreader",
+    "portLiftBoom"
+  ],
+  "id": "port-reach-stacker",
+  "width": 1336,
+  "height": 707,
+  "parts": [
+    {
+      "id": "portLiftCarrier",
+      "name": "车身",
+      "file": "puzzle/port-reach-stacker/portLiftCarrier.webp",
+      "x": 2,
+      "y": 344,
+      "w": 814,
+      "h": 363
+    },
+    {
+      "id": "portLiftBoom",
+      "name": "伸缩臂",
+      "file": "puzzle/port-reach-stacker/portLiftBoom.webp",
+      "x": 47,
+      "y": 0,
+      "w": 1171,
+      "h": 484
+    },
+    {
+      "id": "portLiftSpreader",
+      "name": "吊具",
+      "file": "puzzle/port-reach-stacker/portLiftSpreader.webp",
+      "x": 954,
+      "y": 247,
+      "w": 382,
+      "h": 185
+    },
+    {
+      "id": "portLiftBox",
+      "name": "集装箱",
+      "file": "puzzle/port-reach-stacker/portLiftBox.webp",
+      "x": 961,
+      "y": 377,
+      "w": 363,
+      "h": 281
+    }
+  ]
+}

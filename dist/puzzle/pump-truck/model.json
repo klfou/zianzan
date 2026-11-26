@@ -1,0 +1,51 @@
+{
+  "id": "pump-truck",
+  "name": "混凝土泵车",
+  "width": 988,
+  "height": 720,
+  "layers": [
+    "pumpTruckHose",
+    "pumpTruckPump",
+    "pumpTruckCarrier",
+    "pumpTruckBoom"
+  ],
+  "parts": [
+    {
+      "id": "pumpTruckCarrier",
+      "name": "带支腿的底盘",
+      "file": "puzzle/pump-truck/pumpTruckCarrier.webp",
+      "x": 0,
+      "y": 371,
+      "w": 732,
+      "h": 349
+    },
+    {
+      "id": "pumpTruckPump",
+      "name": "泵送装置",
+      "file": "puzzle/pump-truck/pumpTruckPump.webp",
+      "x": 233,
+      "y": 378,
+      "w": 505,
+      "h": 192
+    },
+    {
+      "id": "pumpTruckBoom",
+      "name": "布料臂",
+      "file": "puzzle/pump-truck/pumpTruckBoom.webp",
+      "x": 249,
+      "y": 0,
+      "w": 739,
+      "h": 439
+    },
+    {
+      "id": "pumpTruckHose",
+      "name": "末端软管",
+      "file": "puzzle/pump-truck/pumpTruckHose.webp",
+      "x": 947,
+      "y": 85,
+      "w": 39,
+      "h": 168
+    }
+  ],
+  "intro": "pumpTruckIntro"
+}

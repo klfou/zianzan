@@ -1,0 +1,59 @@
+{
+  "name": "拉臂式垃圾车",
+  "intro": "binLiftIntro",
+  "layers": [
+    "binLiftCab",
+    "binLiftBox",
+    "binLiftArm"
+  ],
+  "parts": [
+    {
+      "id": "binLiftCab",
+      "name": "行驶底盘",
+      "cell": [
+        131,
+        8,
+        1514,
+        561
+      ],
+      "position": [
+        0,
+        28
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "binLiftArm",
+      "name": "拉臂",
+      "cell": [
+        21,
+        545,
+        826,
+        866
+      ],
+      "position": [
+        370,
+        83
+      ],
+      "scale": 0.92,
+      "scaleX": 1.23
+    },
+    {
+      "id": "binLiftBox",
+      "name": "可卸垃圾箱",
+      "cell": [
+        861,
+        583,
+        1761,
+        873
+      ],
+      "position": [
+        430,
+        0
+      ],
+      "scale": 1.17,
+      "scaleX": 1.06
+    }
+  ]
+}

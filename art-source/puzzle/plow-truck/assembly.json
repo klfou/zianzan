@@ -1,0 +1,73 @@
+{
+  "name": "铲雪车",
+  "intro": "snowPlowIntro",
+  "parts": [
+    {
+      "id": "snowPlowCarrier",
+      "name": "行驶底盘",
+      "cell": [
+        0,
+        0,
+        885,
+        600
+      ],
+      "position": [
+        53,
+        7
+      ],
+      "scale": 1,
+      "pin": {
+        "source": [
+          869,
+          703,
+          893,
+          727
+        ],
+        "size": [
+          24,
+          24
+        ],
+        "position": [
+          72,
+          438
+        ]
+      }
+    },
+    {
+      "id": "snowPlowSpreader",
+      "name": "撒布装置",
+      "cell": [
+        885,
+        0,
+        1536,
+        600
+      ],
+      "position": [
+        448,
+        1
+      ],
+      "scale": 0.82
+    },
+    {
+      "id": "snowPlowBlade",
+      "name": "推雪铲",
+      "cell": [
+        0,
+        600,
+        1536,
+        1024
+      ],
+      "position": [
+        -446,
+        402
+      ],
+      "scale": 0.44,
+      "angle": 6
+    }
+  ],
+  "layers": [
+    "snowPlowSpreader",
+    "snowPlowCarrier",
+    "snowPlowBlade"
+  ]
+}

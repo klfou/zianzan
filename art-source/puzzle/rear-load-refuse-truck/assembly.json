@@ -1,0 +1,59 @@
+{
+  "name": "后装压缩式垃圾车",
+  "intro": "refuseRearIntro",
+  "layers": [
+    "refuseRearChassis",
+    "refuseRearBody",
+    "refuseRearPacker"
+  ],
+  "parts": [
+    {
+      "id": "refuseRearChassis",
+      "name": "带驾驶室的底盘",
+      "cell": [
+        251,
+        3,
+        1481,
+        440
+      ],
+      "position": [
+        0,
+        89
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "refuseRearBody",
+      "name": "垃圾厢",
+      "cell": [
+        73,
+        454,
+        1053,
+        877
+      ],
+      "position": [
+        350,
+        4
+      ],
+      "scale": 0.81,
+      "scaleX": 0.78
+    },
+    {
+      "id": "refuseRearPacker",
+      "name": "车尾填装器",
+      "cell": [
+        1137,
+        438,
+        1692,
+        885
+      ],
+      "position": [
+        1059,
+        0
+      ],
+      "scale": 0.91,
+      "scaleX": 0.75
+    }
+  ]
+}

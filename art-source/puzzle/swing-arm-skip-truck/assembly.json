@@ -1,0 +1,59 @@
+{
+  "name": "摆臂式垃圾车",
+  "intro": "swingSkipIntro",
+  "layers": [
+    "swingSkipChassis",
+    "swingSkipBowl",
+    "swingSkipArms"
+  ],
+  "parts": [
+    {
+      "id": "swingSkipChassis",
+      "name": "车身",
+      "cell": [
+        10,
+        10,
+        1282,
+        600
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "swingSkipArms",
+      "name": "带吊钩的摆臂",
+      "cell": [
+        10,
+        625,
+        947,
+        1069
+      ],
+      "position": [
+        817,
+        0
+      ],
+      "scale": 1,
+      "scaleX": 1
+    },
+    {
+      "id": "swingSkipBowl",
+      "name": "船形垃圾斗",
+      "cell": [
+        10,
+        1090,
+        823,
+        1334
+      ],
+      "position": [
+        1266,
+        336
+      ],
+      "scale": 0.765,
+      "scaleX": 0.765
+    }
+  ]
+}

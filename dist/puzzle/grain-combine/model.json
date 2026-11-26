@@ -1,0 +1,51 @@
+{
+  "name": "联合收割机",
+  "intro": "grainCombineIntro",
+  "layers": [
+    "grainCombineBase",
+    "grainCombineBody",
+    "grainCombineAuger",
+    "grainCombineHeader"
+  ],
+  "id": "grain-combine",
+  "width": 1265,
+  "height": 588,
+  "parts": [
+    {
+      "id": "grainCombineBase",
+      "name": "行走底盘",
+      "file": "puzzle/grain-combine/grainCombineBase.webp",
+      "x": 574,
+      "y": 303,
+      "w": 641,
+      "h": 279
+    },
+    {
+      "id": "grainCombineBody",
+      "name": "收割车身",
+      "file": "puzzle/grain-combine/grainCombineBody.webp",
+      "x": 385,
+      "y": 0,
+      "w": 841,
+      "h": 508
+    },
+    {
+      "id": "grainCombineHeader",
+      "name": "割台",
+      "file": "puzzle/grain-combine/grainCombineHeader.webp",
+      "x": 0,
+      "y": 371,
+      "w": 638,
+      "h": 217
+    },
+    {
+      "id": "grainCombineAuger",
+      "name": "卸粮筒",
+      "file": "puzzle/grain-combine/grainCombineAuger.webp",
+      "x": 815,
+      "y": 128,
+      "w": 450,
+      "h": 99
+    }
+  ]
+}

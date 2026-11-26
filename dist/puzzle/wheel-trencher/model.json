@@ -1,0 +1,51 @@
+{
+  "id": "wheel-trencher",
+  "name": "轮式挖沟机",
+  "width": 1524,
+  "height": 817,
+  "layers": [
+    "trencherBody",
+    "trencherCab",
+    "trencherWheel",
+    "trencherArm"
+  ],
+  "parts": [
+    {
+      "id": "trencherBody",
+      "name": "轮式底盘",
+      "file": "puzzle/wheel-trencher/trencherBody.webp",
+      "x": 0,
+      "y": 190,
+      "w": 948,
+      "h": 627
+    },
+    {
+      "id": "trencherCab",
+      "name": "驾驶室",
+      "file": "puzzle/wheel-trencher/trencherCab.webp",
+      "x": 248,
+      "y": 0,
+      "w": 479,
+      "h": 421
+    },
+    {
+      "id": "trencherWheel",
+      "name": "切削轮",
+      "file": "puzzle/wheel-trencher/trencherWheel.webp",
+      "x": 965,
+      "y": 180,
+      "w": 559,
+      "h": 590
+    },
+    {
+      "id": "trencherArm",
+      "name": "摆臂与油缸",
+      "file": "puzzle/wheel-trencher/trencherArm.webp",
+      "x": 709,
+      "y": 183,
+      "w": 716,
+      "h": 364
+    }
+  ],
+  "intro": "trencherIntro"
+}

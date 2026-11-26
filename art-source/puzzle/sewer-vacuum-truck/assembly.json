@@ -1,0 +1,74 @@
+{
+  "name": "吸污车",
+  "intro": "sewerVacIntro",
+  "parts": [
+    {
+      "id": "sewerVacBase",
+      "name": "行驶底盘",
+      "cell": [
+        0,
+        0,
+        813,
+        528
+      ],
+      "position": [
+        17,
+        48
+      ],
+      "scale": 1
+    },
+    {
+      "id": "sewerVacTank",
+      "name": "密封罐",
+      "cell": [
+        813,
+        0,
+        1536,
+        528
+      ],
+      "position": [
+        396,
+        78
+      ],
+      "scale": 0.66
+    },
+    {
+      "id": "sewerVacPump",
+      "name": "真空泵",
+      "cell": [
+        0,
+        528,
+        780,
+        1024
+      ],
+      "position": [
+        290,
+        268
+      ],
+      "scale": 0.21,
+      "mirror": true
+    },
+    {
+      "id": "sewerVacHose",
+      "name": "吸污管",
+      "cell": [
+        780,
+        528,
+        1536,
+        1024
+      ],
+      "position": [
+        813,
+        200
+      ],
+      "scale": 0.45,
+      "angle": -27
+    }
+  ],
+  "layers": [
+    "sewerVacHose",
+    "sewerVacPump",
+    "sewerVacTank",
+    "sewerVacBase"
+  ]
+}

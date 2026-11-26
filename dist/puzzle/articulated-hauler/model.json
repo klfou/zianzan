@@ -1,0 +1,41 @@
+{
+  "name": "铰接式自卸车",
+  "intro": "bendHaulIntro",
+  "layers": [
+    "bendHaulTractor",
+    "bendHaulChassis",
+    "bendHaulBody"
+  ],
+  "id": "articulated-hauler",
+  "width": 1709,
+  "height": 576,
+  "parts": [
+    {
+      "id": "bendHaulTractor",
+      "name": "前车身",
+      "file": "puzzle/articulated-hauler/bendHaulTractor.webp",
+      "x": 0,
+      "y": 35,
+      "w": 769,
+      "h": 541
+    },
+    {
+      "id": "bendHaulChassis",
+      "name": "后底盘",
+      "file": "puzzle/articulated-hauler/bendHaulChassis.webp",
+      "x": 705,
+      "y": 180,
+      "w": 868,
+      "h": 396
+    },
+    {
+      "id": "bendHaulBody",
+      "name": "翻斗车厢",
+      "file": "puzzle/articulated-hauler/bendHaulBody.webp",
+      "x": 637,
+      "y": 0,
+      "w": 1072,
+      "h": 240
+    }
+  ]
+}
